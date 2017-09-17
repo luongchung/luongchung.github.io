@@ -15,8 +15,8 @@
 	},
 	{
 		"name": "CẨM NANG ẨM THỰC VIỆT NAM",
-		"image": "http://luongchung.me/app/camnangamthuac.apk",
-		"url": "#",
+		"image": "amthuc.jpg",
+		"url": "http://luongchung.me/app/camnangamthuac.apk",
 		"date": "Jan 2015",
 		"tags": ["Android","Java"]
 	}
