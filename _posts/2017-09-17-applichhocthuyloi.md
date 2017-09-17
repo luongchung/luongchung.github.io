@@ -12,6 +12,6 @@ categories: android
   <li>Xem lịch học theo ngày hôm nay or tất cả các lịch đơn giản</li>
   <li>Ghi chú lại tiết học (vd: Kiểm tra,nộp bài tập...)</li>
   <li>Thông báo đến giờ đi học</li>
-  li>Xem tin tức của trường</li>
+  <li>Xem tin tức của trường</li>
 </ul>
 <p>Click vào đây : </p><b><a href="http://luongchung.me/app/lichhocTLU.apk" >Download</a></b>
