@@ -1,0 +1,28 @@
+title: BLOG LUONG CHUNG
+description: BLOG LUONG CHUNG
+author: LƯƠNG CHUNG
+logo: /static/img/avatar.png
+github: https://github.com/luongchung
+about: Deverloper Software
+
+baseurl: "https://LichHocThuyLoi.github.io"
+url: "https://LichHocThuyLoi.github.io"
+
+allowsearch: true
+
+disqus_shortname: luongchung
+google_analytics: UA-72862926-1
+
+share:
+  twitter_username: \#
+  fb_appid: 000000000000
+
+
+enableTags: true
+tagarray: []
+
+paginate: 20
+per_page: 20
+paginate_path: "/page:num/"
+markdown: kramdown
+gems: [jekyll-paginate, jekyll-gist]
