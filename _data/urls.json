@@ -11,14 +11,9 @@
     "icon": "fa-comments"
   },
   {
-    "text": "DỰ ÁN",
-    "url": "/projects",
-    "icon": "fa-desktop"
-  },
-  {
     "text": "SẢN PHẨM",
     "url": "/sanpham",
-    "icon": "fa-briefcase"
+    "icon": "fa-desktop"
   },
   {
     "text": "GITHUB",
