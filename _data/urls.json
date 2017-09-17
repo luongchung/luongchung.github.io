@@ -16,6 +16,11 @@
     "icon": "fa-desktop"
   },
   {
+    "text": "TÀI LIỆU",
+    "url": "/tailieu",
+    "icon": "fa-book"
+  },
+  {
     "text": "GITHUB",
     "url": "https://github.com/luongchung",
     "icon": "fa-github"
