@@ -8,7 +8,7 @@ categories: android
 <hr>
 <b>Tính năng :<b>
 <ul>
-  <li>Lấy lịch học tự đông trên trang đăng ký của trường.</li>
+  <li>Lấy lịch học tự động trên trang đăng ký của trường.</li>
   <li>Xem lịch học theo ngày hôm nay or tất cả các lịch đơn giản</li>
   <li>Ghi chú lại tiết học (vd: Kiểm tra,nộp bài tập...)</li>
   <li>Thông báo đến giờ đi học</li>
