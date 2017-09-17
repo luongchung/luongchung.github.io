@@ -14,4 +14,5 @@ categories: android
   <li>Thông báo đến giờ đi học</li>
   <li>Xem tin tức của trường</li>
 </ul>
+<hr>
 <p>Click vào đây : </p><b><a href="http://luongchung.me/app/lichhocTLU.apk" >Download</a></b>
