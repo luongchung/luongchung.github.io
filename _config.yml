@@ -5,8 +5,8 @@ logo: /static/img/avatar.png
 github: https://github.com/luongchung
 about: Deverloper Software
 
-baseurl: "https://luongchung.me"
-url: "https://luongchung.me"
+baseurl: "https://luongchung.github.io"
+url: "https://luongchung.github.io"
 
 allowsearch: true
 
