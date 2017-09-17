@@ -2,20 +2,20 @@
 	{
 		"name": "ỨNG DỤNG LỊCH HỌC ĐH THỦY LỢI",
 		"image": "app_tlu.jpg",
-		"url": "#",
+		"url": "http://luongchung.me/app/lichhocTLU.apk",
 		"date": "Jan 2017",
 		"tags": ["Java","Android"]
 	},
 	{
 		"name": "GAME BIRD AVOID ARROW",
 		"image": "bird_avatar.png",
-		"url": "#",
+		"url": "http://luongchung.me/app/GameFist.apk",
 		"date": "Jan 2014",
 		"tags": ["Android","C#"]
 	},
 	{
 		"name": "CẨM NANG ẨM THỰC VIỆT NAM",
-		"image": "amthuc.jpg",
+		"image": "http://luongchung.me/app/camnangamthuac.apk",
 		"url": "#",
 		"date": "Jan 2015",
 		"tags": ["Android","Java"]
