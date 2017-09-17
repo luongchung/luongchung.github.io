@@ -1,7 +1,7 @@
 ---
 layout: project
-title: Dự Án
-permalink: /projects/
+title: Sản phẩm
+permalink: /sanpham/
 ---
 
-Tất cả các dự án.
+Tất cả các sản phẩm.
