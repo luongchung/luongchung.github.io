@@ -16,6 +16,11 @@
     "icon": "fa-desktop"
   },
   {
+    "text": "BÀI VIẾT",
+    "url": "/category/others",
+    "icon": "fa-newspaper-o"
+  },
+  {
     "text": "TÀI LIỆU",
     "url": "/tailieu",
     "icon": "fa-book"
