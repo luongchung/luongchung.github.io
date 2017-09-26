@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "CLIENT - SERVER QUA GIAO THỨC UDP"
+date:   2017-09-17 13:50:29
+categories: laptrinhphantan
+---
+<h1>Hướng dẫn lập trình Client - Server UDP bằng JAVA</h1>
+<p>- Bước 1:  Tạo một tiến trình Server class DatagramServer</p>
+
+
+
+<pre>import java.net.*;<br />import java.io.*;<br />public class DatagramServer {<br />    public static void main(String[] args) {<br />        DatagramPacket datapacket, returnpacket;<br />        int port = 2018;<br />        int len = 1024;<br />        try {<br />            DatagramSocket datasocket = new DatagramSocket(port);<br />            byte[] buf = new byte[len];<br />            datapacket = new DatagramPacket(buf, buf.length);<br />            while (true) {<br />                try {<br />                    datasocket.receive(datapacket);<br />                    returnpacket = new DatagramPacket(<br />                            datapacket.getData(),<br />                            datapacket.getLength(),<br />                            datapacket.getAddress(),<br />                            datapacket.getPort());<br /><br />                    datasocket.send(returnpacket);<br />                } catch (IOException e) {<br />                    System.err.println(e);<br />                }<br />            }<br />        } catch (SocketException se) {<br />            System.err.println(se);<br />        }<br />    }<br />}</pre>
+
+
+<p>- Bước 2:  Tạo một tiến trình Client class DatagramClient</p>
+<hr>
+<hr>
+<pre>package server_client_UDP;<br /><br />import java.net.*;<br />import java.io.*;<br />public class DatagramClient {<br />    public static void main(String[] args) {<br />        String hostname;<br />        int port = 2018;<br />        int len = 1024;<br />        DatagramPacket sPacket, rPacket;<br />        if (args.length &gt; 0)<br />            hostname = args[0];<br />        else<br />            hostname = "localhost";<br />        try {<br />            InetAddress ia = InetAddress.getByName(hostname);<br />            DatagramSocket datasocket = new DatagramSocket();<br />            BufferedReader stdinp = new BufferedReader(new InputStreamReader(System.in));<br />            while (true) {<br />                try {<br />                    String echoline = stdinp.readLine();<br />                    if (echoline.equals("done")) break;<br />                    byte[] buffer = new byte[echoline.length()];<br />                    buffer = echoline.getBytes();<br />                    sPacket = new DatagramPacket(buffer, buffer.length, ia, port);<br />                    datasocket.send(sPacket);<br />                    byte[] rbuffer = new byte[len];<br />                    rPacket = new DatagramPacket(rbuffer, rbuffer.length);<br />                    datasocket.receive(rPacket);<br />                    String retstring = new String(rPacket.getData());<br />                    System.out.println("Server gửi về: "+retstring);<br />                } catch (IOException e) {<br />                    System.err.println(e);<br />                }<br />            } // while<br />        } catch (UnknownHostException e) {<br />            System.err.println(e);<br />        } catch (SocketException se) {<br />            System.err.println(se);<br />        }<br />    }  // end main<br /><br />    public static class DatagramServer {<br />        public static void main(String[] args) {<br />            DatagramPacket datapacket, returnpacket;<br />            int port = 2018;<br />            int len = 1024;<br />            try {<br />                DatagramSocket datasocket = new DatagramSocket(port);<br />                byte[] buf = new byte[len];<br />                datapacket = new DatagramPacket(buf, buf.length);<br />                while (true) {<br />                    try {<br />                        datasocket.receive(datapacket);<br />                        returnpacket = new DatagramPacket(<br />                                datapacket.getData(),<br />                                datapacket.getLength(),<br />                                datapacket.getAddress(),<br />                                datapacket.getPort());<br />                        datasocket.send(returnpacket);<br />                    } catch (IOException e) {<br />                        System.err.println(e);<br />                    }<br />                }<br />            } catch (SocketException se) {<br />                System.err.println(se);<br />            }<br />        }<br />    }<br />}</pre>
+
+
+<p>Chạy cả 2 chương trình cùng lúc, và gõ một chuỗi bên phía client 
+, client ---> server và server ---> client  để hiện ra màn hình.
+
+</p>
