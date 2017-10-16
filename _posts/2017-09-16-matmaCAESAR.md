@@ -6,18 +6,24 @@ categories: antoanbaomat
 ---
 <h1>Mô phỏng mật mã Caesar qua C++</h1>
 <hr>
-<table class="highlight tab-size js-file-line-container" data-tab-size="8">
+<table class="highlight tab-size js-file-line-container" style="float: left;" data-tab-size="8">
 <tbody>
-<tr>
-<td id="LC2" class="blob-code blob-code-inner js-file-line">#<span class="pl-k">include</span> <span class="pl-s"><span class="pl-pds">&lt;</span>iostream<span class="pl-pds">&gt;</span></span></td>
-</tr>
 <tr>
 <td id="L3" class="blob-num js-line-number" data-line-number="3">&nbsp;</td>
 <td id="LC3" class="blob-code blob-code-inner js-file-line">#<span class="pl-k">include</span> <span class="pl-s"><span class="pl-pds">&lt;</span>string<span class="pl-pds">&gt;</span></span></td>
 </tr>
 <tr>
 <td id="L4" class="blob-num js-line-number" data-line-number="4">&nbsp;</td>
-<td id="LC4" class="blob-code blob-code-inner js-file-line">#<span class="pl-k">include</span><span class="pl-s"><span class="pl-pds">&lt;</span>stdlib.h<span class="pl-pds">&gt;</span></span></td>
+<td id="LC4" class="blob-code blob-code-inner js-file-line">
+<p>#<span class="pl-k">include</span><span class="pl-s"><span class="pl-pds">&lt;</span>stdlib.h<span class="pl-pds">&gt;</span></span></p>
+<table class="highlight tab-size js-file-line-container" data-tab-size="8">
+<tbody>
+<tr>
+<td id="LC2" class="blob-code blob-code-inner js-file-line">#<span class="pl-k">include</span> <span class="pl-s"><span class="pl-pds">&lt;</span>iostream<span class="pl-pds">&gt;</span></span></td>
+</tr>
+</tbody>
+</table>
+</td>
 </tr>
 <tr>
 <td id="L5" class="blob-num js-line-number" data-line-number="5">&nbsp;</td>
@@ -156,8 +162,11 @@ categories: antoanbaomat
 <td id="LC38" class="blob-code blob-code-inner js-file-line"><span class="pl-k">return</span> <span class="pl-c1">0</span>;</td>
 </tr>
 <tr>
+<td class="blob-num js-line-number" data-line-number="39">&nbsp;</td>
+</tr>
+<tr>
 <td id="L39" class="blob-num js-line-number" data-line-number="39">&nbsp;</td>
-<td id="LC39" class="blob-code blob-code-inner js-file-line">}</td>
+<td id="LC39" class="blob-code blob-code-inner js-file-line" style="text-align: left;">}</td>
 </tr>
 </tbody>
 </table>
