@@ -4,7 +4,7 @@ title:  "ỨNG DỤNG LỊCH HỌC ĐH THỦY LỢI"
 date:   2017-09-17 13:50:29
 categories: android
 ---
-<img width="120px" height="500px" src="/static/projects/app_tlu.jpg" alt="ERROR" />
+<img width="220px" height="1000px" src="/static/projects/app_tlu.jpg" alt="ERROR" />
 <hr>
 <b>version: beta 2.0 free<b>
 <b>Tính năng :<b>
