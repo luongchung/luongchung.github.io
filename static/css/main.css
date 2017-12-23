@@ -71,7 +71,7 @@ p.info a {
 }
 
 .menu ul li a:hover, .menu ul li a:focus, li.current-menu-item > a{
-    border-radius: 3px;
+    border-radius: 10px;
     background: #16323b;
 }
 li.current-menu-item:before {
