@@ -1,6 +1,6 @@
 .main.outer{padding-top: 50px;}
 .header-panel.shadow-z-2 {
-    background-color: #553F7A;
+    background-color: #183C47;
     padding: 50px 0 15px 0;
     width: 100%;
 }
@@ -55,14 +55,14 @@ p.info a {
     text-align: center;
     line-height: 20px;
     font-size: 20px;
-    color: #553F7A;
+    color: #183C47;
     padding: 5px;
     width: 30px;
     height: 30px;
     display: inline-block;
 }
 .icon:hover {
-    color: #F6DC86;
+    color: #1c404e;
     background: #FFFFFF;
 }
 .menu ul li {
