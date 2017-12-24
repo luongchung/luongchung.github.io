@@ -15,7 +15,7 @@ permalink: /about/
 <td valign="top"><span style="font-family: Verdana;">56TH-PM.TLU |&nbsp;SDC Club</span></td>
 </tr>
 <tr>
-<td valign="top">Phone: 0903401724<br />Email:&nbsp;<a href="mailto:chunglv42@wru.vn" target="_blank">Chunglv42@wru.vn</a></td>
+<td valign="top">Phone: 0903401724<br />
 </tr>
 </tbody>
 </table>
