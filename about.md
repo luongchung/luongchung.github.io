@@ -15,7 +15,7 @@ permalink: /about/
 <td valign="top"><span style="font-family: Verdana;">56TH-PM.TLU |&nbsp;SDC Club</span></td>
 </tr>
 <tr>
-<td valign="top">Phone: 0903401724<br />
+<td valign="top">Phone: 0903401724</td>
 </tr>
 </tbody>
 </table>
