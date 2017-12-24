@@ -17,12 +17,6 @@ permalink: /about/
 <tr>
 <td valign="top">Phone: 0903401724<br />Email:&nbsp;<a href="mailto:chunglv42@wru.vn" target="_blank">Chunglv42@wru.vn</a></td>
 </tr>
-<tr>
-<td valign="top"><a href="http://luongchung.me/" target="_blank"><span style="color: #0000ff;">http://luongchung.me</span></a></td>
-</tr>
-<tr>
-<td valign="top"><a href="https://htmlsig.com/t/000001D6PDSW" target="_blank"><img src="https://ci4.googleusercontent.com/proxy/Gon_bzewzlQWgb66KwW4V3BXHTmgGAxFURAuDc37VenPY1rxG6V1Yo0EST0UM_EvV13z6RX0nGXpmdn1P2pUgKTtVm75yb0lmHoR_yhKCK0=s0-d-e1-ft#https://s3.amazonaws.com/htmlsig-assets/round/facebook.png" alt="Facebook" width="16" height="16" /></a>&nbsp;<img src="https://ci6.googleusercontent.com/proxy/wu_nasMQvgujkWqFw0VMsW-Du2jSo6681tevUA0WRlUscqtAYCqt46KjsfRnLT8nNNuyZ9gHcUSlvXRbY0U2Ki4BGp5uzmgE=s0-d-e1-ft#https://s3.amazonaws.com/htmlsig-assets/spacer.gif" width="2" />&nbsp;<a href="https://htmlsig.com/t/000001D3RV2A" target="_blank"><img src="https://ci3.googleusercontent.com/proxy/PwwKw1piF747vhqVvXRGSkHIQzxKBjb6Z6kuPS4a11vtIWiXRb8xlkBFEayEAUXj3YKq5nk71EMqSlcxPSexMHEgXZ-xzWcw_8UKibhk_A=s0-d-e1-ft#https://s3.amazonaws.com/htmlsig-assets/round/youtube.png" alt="Youtube" width="16" height="16" /></a>&nbsp;<img src="https://ci6.googleusercontent.com/proxy/wu_nasMQvgujkWqFw0VMsW-Du2jSo6681tevUA0WRlUscqtAYCqt46KjsfRnLT8nNNuyZ9gHcUSlvXRbY0U2Ki4BGp5uzmgE=s0-d-e1-ft#https://s3.amazonaws.com/htmlsig-assets/spacer.gif" width="2" />&nbsp;<a href="https://htmlsig.com/t/000001D2Y8C6" target="_blank"><img src="https://ci3.googleusercontent.com/proxy/WRP-NrJVrMTY9CM4vsNXLf3WepVJhk3l7Ms6XV6Ldx5AQmMaBtC8aNM4RNb6nP2OZjgOg5I8GB6UxIdikm2lCHFDpBuQqaE9E3c1tWCB=s0-d-e1-ft#https://s3.amazonaws.com/htmlsig-assets/round/github.png" alt="Github" width="16" height="16" /></a>&nbsp;<img src="https://ci6.googleusercontent.com/proxy/wu_nasMQvgujkWqFw0VMsW-Du2jSo6681tevUA0WRlUscqtAYCqt46KjsfRnLT8nNNuyZ9gHcUSlvXRbY0U2Ki4BGp5uzmgE=s0-d-e1-ft#https://s3.amazonaws.com/htmlsig-assets/spacer.gif" width="2" /></td>
-</tr>
 </tbody>
 </table>
 <div class="inner">
