@@ -17,4 +17,5 @@ categories: android
   <li>Xem tin tức của trường</li>
 </ul>
 <hr>
+<p>Link CHplay: </p><b><a href="https://play.google.com/store/apps/details?id=com.company.luongchung.tlulichhoc" >https://play.google.com/store/apps/details?id=com.company.luongchung.tlulichhoc</a></b>
 <p>Click vào đây : </p><b><a href="http://luongchung.me/app/lichhocTLU.apk" >DOWNLOAD</a></b>
