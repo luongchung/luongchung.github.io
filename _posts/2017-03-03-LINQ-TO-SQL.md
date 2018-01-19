@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  " CƠ BẢN LINQ TO SQL SERVER -C#"
+title:  " CƠ BẢN LINQ TO SQL SERVER - C#"
 date:   2017-09-17 13:50:29
 categories: other
 ---
+<h1>CƠ BẢN LINQ TO SQL SERVER - C#</h1>
 <p><strong>#1: Lấy tất cả bản ghi của bảng khoa:</strong></p>
 <p><em>var data = from a in db.khoa select new {a.Ma_Khoa,a.TenKhoa};</em></p>
 <p><strong>#2: Lấy tất cả bản ghi của bảng khoa với điều kiện m&atilde; khoa=1:</strong></p>
