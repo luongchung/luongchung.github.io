@@ -5,6 +5,9 @@ date:   2017-09-17 13:50:29
 categories: other
 ---
 <h1>CƠ BẢN LINQ TO SQL SERVER - C#</h1>
+<p><b>Sơ đồ quan hệ bảng:</b></p>
+<img src="/static/projects/db.png" alt="ERROR" />
+<hr>
 <p><strong>#1: Lấy tất cả bản ghi của bảng khoa:</strong></p>
 <p><em>var data = from a in <span style="color: #ff9900;">db.khoa select new {a.Ma_Khoa,a.TenKhoa};</span></em></p>
 <p>&nbsp;</p>
