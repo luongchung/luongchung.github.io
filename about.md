@@ -14,13 +14,13 @@ permalink: /about/
 </td>
 </tr>
 <tr>
-<td valign="top"><strong>Lương Chung</strong></td>
+<td valign="top"><strong>   Lương Văn Chung</strong></td>
 </tr>
 <tr>
-<td valign="top"><span style="font-family: Verdana;">56TH-PM.TLU |&nbsp;SDC Club</span></td>
+<td valign="top"><span style="font-family: Verdana;">   56TH-PM.TLU |&nbsp;SDC Club</span></td>
 </tr>
 <tr>
-<td valign="top">Phone: 0903401724</td>
+<td valign="top">   Phone: 0903401724</td>
 </tr>
 </tbody>
 </table>
