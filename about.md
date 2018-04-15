@@ -6,7 +6,7 @@ permalink: /about/
 <table width="350" cellspacing="0" cellpadding="0">
 <tbody>
 <tr>
-<td valign="top"><strong><br /><a href="https://htmlsig.com/t/000001D5RZYM" target="_blank"><img src="https://ci6.googleusercontent.com/proxy/1ad2gtV-FhWX2ZTsvRFaELKYK54pbX2ebqH5NBFO6y5viLllQug6FmVoBoJn65tLrYAVUVSKaq51jRJs4_pDYAnepViUdDVVFn5nP6MnkYd2JNsZTxFgCA0SCeL2RsGpgEPNc47D9iJ9zgB5MUq8iwi-LKynQ0QvDXkVef5wOmEgTHA-mqNdK00HQ44=s0-d-e1-ft#https://htmlsigs.s3.amazonaws.com/logos/files/000/938/201/landscape/13411872_676304309184716_9219746181441720017_o.jpg" alt="Skills Development Club." width="96" height="96" border="0" /></a><br /></strong></td>
+<td valign="top"><strong><br /><a href="https://htmlsig.com/t/000001D5RZYM" target="_blank"><img src="https://ci6.googleusercontent.com/proxy/1ad2gtV-FhWX2ZTsvRFaELKYK54pbX2ebqH5NBFO6y5viLllQug6FmVoBoJn65tLrYAVUVSKaq51jRJs4_pDYAnepViUdDVVFn5nP6MnkYd2JNsZTxFgCA0SCeL2RsGpgEPNc47D9iJ9zgB5MUq8iwi-LKynQ0QvDXkVef5wOmEgTHA-mqNdK00HQ44=s0-d-e1-ft#https://htmlsigs.s3.amazonaws.com/logos/files/000/938/201/landscape/13411872_676304309184716_9219746181441720017_o.jpg" alt="Skills Development Club." width="500" height="500" border="0" /></a><br /></strong></td>
 </tr>
 <tr>
 <td valign="top"><strong>Lương Chung</strong></td>
