@@ -6,8 +6,12 @@ permalink: /about/
 <table width="350" cellspacing="0" cellpadding="0">
 <tbody>
 <tr>
-<td valign="top"><strong><br />
-<img src="https://luongchung.github.io/static/img/avatar.png" alt="Skills Development Club." width="500" height="500" border="2" /></a><br /></strong></td>
+<td valign="top">
+<strong>
+<br/>
+<img src="https://luongchung.github.io/static/img/avatar.png" alt="Skills Development Club." width="500" height="500" border="2" />
+<br /></strong>
+</td>
 </tr>
 <tr>
 <td valign="top"><strong>Lương Chung</strong></td>
