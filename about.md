@@ -7,7 +7,7 @@ permalink: /about/
 <tbody>
 <tr>
 <td valign="top"><strong><br />
-<img src="./static/img/avatar.png" alt="Skills Development Club." width="500" height="500" border="2" /></a><br /></strong></td>
+<img src="https://luongchung.github.io/static/img/avatar.png" alt="Skills Development Club." width="500" height="500" border="2" /></a><br /></strong></td>
 </tr>
 <tr>
 <td valign="top"><strong>Lương Chung</strong></td>
