@@ -2,28 +2,28 @@
 	{
 		"name": "TIỆN ÍCH LỊCH HỌC ĐH THỦY LỢI - Ver:2.0Beta",
 		"image": "app_tlu.jpg",
-		"url": "http://luongchung.me/app/lichhocTLU.apk",
+		"url": "http://luongchung.github.io/app/lichhocTLU.apk",
 		"date": "Jan 2017",
 		"tags": ["Java","Android"]
 	},
 	{
 		"name": "GAME BIRD AVOID ARROW",
 		"image": "bird_avatar.png",
-		"url": "http://luongchung.me/app/GameFist.apk",
+		"url": "http://luongchung.github.io/app/GameFist.apk",
 		"date": "Jan 2014",
 		"tags": ["Android","C#"]
 	},
 	{
 		"name": "CẨM NANG ẨM THỰC VIỆT NAM",
 		"image": "amthuc.jpg",
-		"url": "http://luongchung.me/app/camnangamthuc.apk",
+		"url": "http://luongchung.github.io/app/camnangamthuc.apk",
 		"date": "Jan 2015",
 		"tags": ["Android","Java"]
 	},
 	{
 		"name": "GIẢI NÉN ZIP ANDROID",
 		"image": "appzip.png",
-		"url": "http://luongchung.me/app/appzip.apk",
+		"url": "http://luongchung.github.io/app/appzip.apk",
 		"date": "Jan 2017",
 		"tags": ["Android","Java"]
 	}
