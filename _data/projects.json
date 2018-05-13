@@ -1,8 +1,8 @@
 [
 	{
-		"name": "TIỆN ÍCH LỊCH HỌC ĐH THỦY LỢI - Ver:2.0Beta",
+		"name": "TIỆN ÍCH LỊCH HỌC ĐH THỦY LỢI",
 		"image": "app_tlu.jpg",
-		"url": "http://luongchung.github.io/app/lichhocTLU.apk",
+		"url": "https://play.google.com/store/apps/details?id=com.company.luongchung.tkbtlu",
 		"date": "Jan 2017",
 		"tags": ["Java","Android"]
 	},
