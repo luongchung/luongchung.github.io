@@ -4,11 +4,8 @@ title: Tài liệu
 permalink: /tailieu/
 ---
 <h2><b>C# Documents</b></h2>
-<button type="button" href="https://luongchung.github.io/doc/NgonngulaptrinhCSharp.pdf" class="btn">
-[DOC] Ngôn ngữ lập trình C# 
-</button>
 
-<button type="button" href="https://luongchung.github.io/doc/PROFESSIONALCsharp.pdf" class="btn">
-[DOC] PROFESSIONAL PROGRAMMING FOR REAL LIFE C# 
-</button>
+
+<a href="https://luongchung.github.io/doc/NgonngulaptrinhCSharp.pdf">[DOC] Ngôn ngữ lập trình C#</a> 
+<a href="https://luongchung.github.io/doc/PROFESSIONALCsharp.pdf">[DOC] PROFESSIONAL PROGRAMMING FOR REAL LIFE C# </a> 
 
