@@ -7,8 +7,7 @@ permalink: /tailieu/
 
 
 <a href="https://luongchung.github.io/doc/NgonngulaptrinhCSharp.pdf">[DOC] Ngôn ngữ lập trình C#</a> 
-</hr>
-
+<hr/>
 
 <a href="https://luongchung.github.io/doc/PROFESSIONALCsharp.pdf">[DOC] PROFESSIONAL PROGRAMMING FOR REAL LIFE C# </a> 
 
