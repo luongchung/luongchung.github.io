@@ -12,17 +12,17 @@ permalink: /tailieu/
 <a href="https://luongchung.github.io/doc/PROFESSIONALCsharp.pdf">[DOC] PROFESSIONAL PROGRAMMING FOR REAL LIFE C# </a> 
 <BR>
 
-<h2><b>ANGULAR</b></h2>
+<h2><b>Angular</b></h2>
 <a href="https://drive.google.com/drive/folders/12soFdhKeBZ5-pDZwhyvZNSquVLJx9B7m?usp=sharing">
-[DOC] ANGULARJS </a> 
+[KHÓA HỌC] ANGULARJS </a> 
 <BR>
 
 
-<h2><b>TÀI LIỆU TỔNG HỢP IT</b></h2>
+<h2><b>Tài liệu tổng hợp IT</b></h2>
 <a href="https://drive.google.com/drive/folders/0B0_8KhDA4TFyTkRORnA1UFk1dzQ?usp=sharing">
-DOWN TÀI LIỆU TỔNG HỢP IT </a> 
+[FOLDER]DOWN TÀI LIỆU TỔNG HỢP IT </a> 
 <BR>
 
 <a href="https://drive.google.com/drive/folders/0ByWO0aO1eI_MN1BEd3VNRUZENkU?usp=sharing">
-TÀI LIỆU TỔNG HỢP TIẾNG ANH </a> 
+[FOLDER] TÀI LIỆU TỔNG HỢP TIẾNG ANH </a> 
 <BR>
