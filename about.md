@@ -3,27 +3,43 @@ layout: page
 title: Liên hệ
 permalink: /about/
 ---
-<table width="350" cellspacing="0" cellpadding="0">
-<tbody>
-<tr>
-<td valign="top">
-<strong>
-<br/>
-<img src="https://luongchung.github.io/static/img/avatar.png" alt="Skills Development Club." width="500" height="500" border="2" />
-<br /></strong>
-</td>
-</tr>
-<tr>
-<td valign="top"><strong>   Lương Văn Chung</strong></td>
-</tr>
-<tr>
-<td valign="top"><span style="font-family: Verdana;">   56TH-PM.TLU |&nbsp;SDC Club</span></td>
-</tr>
-<tr>
-<td valign="top">   Phone: 0903401724</td>
-</tr>
-</tbody>
-</table>
+<div id="maincontent">
+<div id="outputFigDisplay" class="fig">
+<div id="maincontent">
+<div id="outputFigDisplay" class="fig">
+<div id="maincontent">
+<div id="outputFigDisplay" class="fig">
+<pre id="taag_output_text" class="fig" contenteditable="true"><span style="color: #333399;"><strong> _                              _                              _ _   _           _      _       
+| |                            | |                            (_) | | |         | |    (_)      
+| |_   _  ___  _ __   __ _  ___| |__  _   _ _ __   __ _   __ _ _| |_| |__  _   _| |__   _  ___  
+| | | | |/ _ \| '_ \ / _` |/ __| '_ \| | | | '_ \ / _` | / _` | | __| '_ \| | | | '_ \ | |/ _ \ 
+| | |_| | (_) | | | | (_| | (__| | | | |_| | | | | (_| || (_| | | |_| | | | |_| | |_) || | (_) |
+|_|\__,_|\___/|_| |_|\__, |\___|_| |_|\__,_|_| |_|\__, (_)__, |_|\__|_| |_|\__,_|_.__(_)_|\___/ 
+                      __/ |                        __/ |  __/ |                                 
+                     |___/                        |___/  |___/                                  
+ </strong><span style="color: #ff6600;">  __                      ______                    _____ _     _   _                          
+  / _|                     |  _  \                  |_   _| |   | | | |                         
+ | |_ ___  _ __ _ __ ___   | | | |_____   ________    | | | |   | | | |                         
+ |  _/ _ \| '__| '_ ` _ \  | | | / _ \ \ / /______|   | | | |   | | | |                         
+ | || (_) | |  | | | | | | | |/ /  __/\ V /           | | | |___| |_| |                         
+ |_| \___/|_|  |_| |_| |_| |___/ \___| \_/            \_/ \_____/\___/                          
+</span></span><span style="color: #ff6600;"> _</span>____              _______   _  _      _____                                                   
+/  __ \ _     _    / /  __ \_| || |_   / /_  |                                                  
+| /  \/| |_ _| |_ / /| /  \/_  __  _| / /  | | __ ___   ____ _                                  
+| |  |_   _|_   _/ / | |    _| || |_ / /   | |/ _` \ \ / / _` |                                 
+| \__/\|_|   |_|/ /  | \__/\_  __  _/ //\__/ / (_| |\ V / (_| |                                 
+ \____/        /_/    \____/ |_||_|/_/ \____/ \__,_| \_/ \__,_|                                 
+                                                                                                
+                                                                                                </pre>
+<div>&nbsp;</div>
+</div>
+</div>
+<div>&nbsp;</div>
+</div>
+</div>
+<div>&nbsp;</div>
+</div>
+</div>
 <div class="inner">
 <ul class="contact">
 	<li ><a href="http://gmail.com">Email: Chunglv42@wru.vn</a></li>
