@@ -21,7 +21,10 @@ permalink: /tailieu/
 <b>[KHÓA HỌC]</b> ANGULARJS </a> 
 <BR>
 
-
+<h2><b>PHP</b></h2>
+<a href="https://drive.google.com/drive/folders/1OaPpl6uZABBTBvcmGFwkbLd4I81baXN9?usp=sharing">
+<b>[KHÓA HỌC]</b>Xây dựng website hoàn chỉnh với Laravel PHP Framework </a> 
+<BR>
 
 <h2><b>Android</b></h2>
 <a href="https://drive.google.com/drive/folders/1ANVIFFXGIYEfCn5ACkVE1znDDwVFNzzT?usp=sharing">
@@ -35,6 +38,7 @@ permalink: /tailieu/
 <a href="https://drive.google.com/drive/folders/0B0_8KhDA4TFyTkRORnA1UFk1dzQ?usp=sharing">
 <b>[FOLDER]</b> DOWN TÀI LIỆU TỔNG HỢP IT </a> 
 <BR>
+
 
 <a href="https://drive.google.com/drive/folders/0ByWO0aO1eI_MN1BEd3VNRUZENkU?usp=sharing">
 <b>[FOLDER]</b> TÀI LIỆU TỔNG HỢP TIẾNG ANH </a> 
