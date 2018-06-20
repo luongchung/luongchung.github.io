@@ -3,13 +3,10 @@ layout: page
 title: Liên hệ
 permalink: /about/
 ---
+
 <div id="maincontent">
 <div id="outputFigDisplay" class="fig">
-<div id="maincontent">
-<div id="outputFigDisplay" class="fig">
-<div id="maincontent">
-<div id="outputFigDisplay" class="fig">
-<pre id="taag_output_text" class="fig" contenteditable="true"><span style="color: #333399;"><strong> _                              _                              _ _   _           _      _       
+<pre id="taag_output_text" class="fig" contenteditable="true"><strong><span style="color: #ff6600;"> _                              _                              _ _   _           _      _       
 | |                            | |                            (_) | | |         | |    (_)      
 | |_   _  ___  _ __   __ _  ___| |__  _   _ _ __   __ _   __ _ _| |_| |__  _   _| |__   _  ___  
 | | | | |/ _ \| '_ \ / _` |/ __| '_ \| | | | '_ \ / _` | / _` | | __| '_ \| | | | '_ \ | |/ _ \ 
@@ -17,27 +14,20 @@ permalink: /about/
 |_|\__,_|\___/|_| |_|\__, |\___|_| |_|\__,_|_| |_|\__, (_)__, |_|\__|_| |_|\__,_|_.__(_)_|\___/ 
                       __/ |                        __/ |  __/ |                                 
                      |___/                        |___/  |___/                                  
- </strong><span style="color: #ff6600;">  __                      ______                    _____ _     _   _                          
+<span style="color: #808000;">   _</span></span><span style="color: #808000;">_                      ______                    _____ _     _   _                          
   / _|                     |  _  \                  |_   _| |   | | | |                         
  | |_ ___  _ __ _ __ ___   | | | |_____   ________    | | | |   | | | |                         
  |  _/ _ \| '__| '_ ` _ \  | | | / _ \ \ / /______|   | | | |   | | | |                         
  | || (_) | |  | | | | | | | |/ /  __/\ V /           | | | |___| |_| |                         
  |_| \___/|_|  |_| |_| |_| |___/ \___| \_/            \_/ \_____/\___/                          
-</span></span><span style="color: #ff6600;"> _</span>____              _______   _  _      _____                                                   
+</span> _____              _______   _  _      _____                                                   
 /  __ \ _     _    / /  __ \_| || |_   / /_  |                                                  
 | /  \/| |_ _| |_ / /| /  \/_  __  _| / /  | | __ ___   ____ _                                  
 | |  |_   _|_   _/ / | |    _| || |_ / /   | |/ _` \ \ / / _` |                                 
 | \__/\|_|   |_|/ /  | \__/\_  __  _/ //\__/ / (_| |\ V / (_| |                                 
  \____/        /_/    \____/ |_||_|/_/ \____/ \__,_| \_/ \__,_|                                 
                                                                                                 
-                                                                                                
-<div>&nbsp;</div>
-</div>
-</div>
-<div>&nbsp;</div>
-</div>
-
-</div>
+                                                                                                </strong></pre>
 <div>&nbsp;</div>
 </div>
 </div>
