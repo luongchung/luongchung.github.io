@@ -36,14 +36,14 @@ permalink: /about/
 </div>
 <div>&nbsp;</div>
 </div>
+
+</div>
+<div>&nbsp;</div>
+</div>
+</div>
 <ul class="contact">
 	<li ><a href="http://gmail.com">Email: Chunglv42@wru.vn</a></li>
 	<li ><a href="https://www.facebook.com/L.u.o.n.g.C.h.u.n.g.W.R.U">Facebook: Lương Chung</a></li>
 	<li><a href="https://www.instagram.com/luongchung.it">Instagram: LuongChungIT</a></li>
 	<li><a href="https://www.youtube.com/user/luongvanchung96">Youtube: Luongvanchung96</a></li>
 </ul>
-</div>
-<div>&nbsp;</div>
-</div>
-</div>
-
