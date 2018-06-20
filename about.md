@@ -27,10 +27,7 @@ permalink: /about/
 | \__/\|_|   |_|/ /  | \__/\_  __  _/ //\__/ / (_| |\ V / (_| |                                 
  \____/        /_/    \____/ |_||_|/_/ \____/ \__,_| \_/ \__,_|                                 
                                                                                                 
-                                                                                                </strong></pre>
-<div>&nbsp;</div>
-</div>
-</div>
+
 <ul class="contact">
 	<li ><a href="http://gmail.com">Email: Chunglv42@wru.vn</a></li>
 	<li ><a href="https://www.facebook.com/L.u.o.n.g.C.h.u.n.g.W.R.U">Facebook: Lương Chung</a></li>
