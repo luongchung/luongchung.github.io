@@ -15,6 +15,10 @@ permalink: /tailieu/
 <BR>
 
 
+<h2><b>Cách xem các khóa học về IT</b></h2>
+<a href="https://www.4it.top/member/100008139856158">
+<b>[Vào đây mà tìm đầy đủ các khóa học đã mua]</b> https://www.4it.top/member/100008139856158</a> 
+<BR>
 
 <h2><b>Angular</b></h2>
 <a href="https://drive.google.com/drive/folders/12soFdhKeBZ5-pDZwhyvZNSquVLJx9B7m?usp=sharing">
