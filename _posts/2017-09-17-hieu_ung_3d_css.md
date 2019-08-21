@@ -5,7 +5,7 @@ date:   2017-09-17 13:50:29
 categories: android
 ---
 <html>
-    <head>
+  <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen" />
   <script type="text/javascript" charset="utf-8">
@@ -61,7 +61,7 @@ categories: android
     }
   </script>
 </head>
-    <body>
+  <body>
 
   <div style="text-align: right;padding: 15px;"><button onclick="toggleShape()">Đổi kiểu</button>&nbsp;<button onclick="downloadLink()">Download code</button></div>
   
