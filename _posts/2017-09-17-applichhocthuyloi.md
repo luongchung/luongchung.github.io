@@ -4,17 +4,9 @@ title:  "Hiệu ứng 3D CSS"
 date:   2017-09-17 13:50:29
 categories: android
 ---
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-   "http://www.w3.org/TR/html4/loose.dtd">
-<html lang="en">
-<head>
+<html>
+    <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <!--
-  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-  <meta http-equiv="Pragma" content="no-cache" />
-  <meta http-equiv="Expires" content="0" />
-  -->
-  <title>Hiệu ứng CSS 3D</title>
   <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen" />
   <script type="text/javascript" charset="utf-8">
     function hasClassName(inElement, inClassName)
@@ -65,11 +57,11 @@ categories: android
     }
     function downloadLink()
     {
-      location.href = 'http://redirect.nhq.vn/demo/3d-css.zip';
+      location.href = 'http://luongchung.github.io/zip/3d-css.zip';
     }
   </script>
 </head>
-<body>
+    <body>
 
   <div style="text-align: right;padding: 15px;"><button onclick="toggleShape()">Đổi kiểu</button>&nbsp;<button onclick="downloadLink()">Download code</button></div>
   
@@ -101,6 +93,5 @@ categories: android
         document.write('<iframe src="/music/Girls_Like_You.mp3" allow="autoplay loop" style="display:none"></iframe>');
     }
   </script-->
-  <!--//LUONG CHUNG //-->
 </body>
 </html>
