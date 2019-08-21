@@ -15,6 +15,7 @@
     menu.classList.remove("open");
   });
 
+
   // Close menu after click on smaller screens
   $(window).on("resize", function() {
     if ($(window).width() < 846) {
