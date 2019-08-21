@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2c1b8d7b-622f-4af2-a0f8-17ba312ef763" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets1/css/flex-slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets1/css/fontawesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets1/css/lightbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets1/css/owl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets1/css/tooplate-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets1/fonts/Flaticon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets1/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets1/fonts/flexslider-icon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets1/fonts/flexslider-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets1/fonts/flexslider-icon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets1/fonts/flexslider-icon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets1/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets1/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets1/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets1/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets1/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets1/fonts/slick.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets1/fonts/slick.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets1/fonts/slick.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets1/fonts/slick.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets1/images/aerobic-girls.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets1/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets1/images/escalator-blue.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets1/images/girl-nature.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets1/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets1/images/logo-image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets1/images/mountain-reflection.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets1/images/next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets1/images/prev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets1/images/woman-beach.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets1/images/woman-bikini.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets1/images/woman-chair-sunshine.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets1/images/woman-feeling.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets1/images/woman-pretty.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets1/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets1/js/isotope.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets1/js/lightbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets1/js/owl-carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor1/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor1/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor1/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor1/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor1/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor1/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor1/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor1/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor1/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor1/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor1/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor1/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor1/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor1/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor1/jquery/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor1/jquery/jquery.slim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor1/jquery/jquery.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor1/jquery/jquery.slim.min.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/test-page-image-1.jpg" beforeDir="false" />
+    </list>
+    <list id="78b89e9f-2692-4f6f-9a1e-168c8aa8d7a6" name="Revert &quot;jjj&quot;" comment="Revert &quot;jjj&quot;&#10;&#10;This reverts commit c351c447">
+      <change beforePath="$PROJECT_DIR$/_posts/2017-09-17-hieu_ung_3d_css.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2017-09-17-applichhocthuyloi.md" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1PkB04Xvfc2Fr8wLOVwwbKId5aC" />
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/zip" />
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$/music" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2c1b8d7b-622f-4af2-a0f8-17ba312ef763" name="Default Changelist" comment="" />
+      <created>1566407987608</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566407987608</updated>
+      <workItem from="1566407989922" duration="3051000" />
+    </task>
+    <task id="LOCAL-00001" summary="jjj">
+      <created>1566408975642</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1566408975642</updated>
+    </task>
+    <task id="LOCAL-00002" summary="jjj">
+      <created>1566409547548</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1566409547548</updated>
+    </task>
+    <task id="LOCAL-00003" summary="jjj">
+      <created>1566409767331</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1566409767331</updated>
+    </task>
+    <task id="LOCAL-00004" summary="jjj">
+      <created>1566409926044</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1566409926044</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Revert &quot;jjj&quot;&#10;&#10;This reverts commit 353fc0ca">
+      <created>1566410789543</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1566410789543</updated>
+    </task>
+    <task id="LOCAL-00006" summary="jjj">
+      <created>1566411170671</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1566411170671</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Revert &quot;jjj&quot;&#10;&#10;This reverts commit c351c447" />
+    <MESSAGE value="Revert &quot;jjj&quot;&#10;&#10;This reverts commit 353fc0ca" />
+    <MESSAGE value="jjj" />
+    <option name="LAST_COMMIT_MESSAGE" value="jjj" />
+  </component>
+</project>
