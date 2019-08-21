@@ -1,21 +1,106 @@
 ---
 layout: post
-title:  "ỨNG DỤNG LỊCH HỌC ĐH THỦY LỢI"
+title:  "Hiệu ứng 3D CSS"
 date:   2017-09-17 13:50:29
 categories: android
 ---
-<img width="220px" height="1000px" src="/static/projects/app_tlu.jpg" alt="ERROR" />
-<hr>
-<b>version: beta 2.0 free<b>
-<b>Tính năng :<b>
-<ul>
-  <li>Lấy lịch học tự động trên trang đăng ký của trường.</li>
-  <li>Xem lịch học theo ngày hôm nay or tất cả các lịch đơn giản</li>
-  <li>Chat - Thảo luận trực tuyến.</li>
-  <li>Ghi chú lại tiết học (vd: Kiểm tra,nộp bài tập...)</li>
-  <li>Thông báo đến giờ đi học</li>
-  <li>Xem tin tức của trường</li>
-</ul>
-<hr>
-<p>Link CHplay: </p><b><a href="https://play.google.com/store/apps/details?id=com.company.luongchung.tlulichhoc" >https://play.google.com/store/apps/details?id=com.company.luongchung.tlulichhoc</a></b>
-<p>Click vào đây : </p><b><a href="http://luongchung.me/app/lichhocTLU.apk" >DOWNLOAD</a></b>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!--
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  -->
+  <title>Hiệu ứng CSS 3D</title>
+  <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen" />
+  <script type="text/javascript" charset="utf-8">
+    function hasClassName(inElement, inClassName)
+    {
+        var regExp = new RegExp('(?:^|\\s+)' + inClassName + '(?:\\s+|$)');
+        return regExp.test(inElement.className);
+    }
+
+    function addClassName(inElement, inClassName)
+    {
+        if (!hasClassName(inElement, inClassName))
+            inElement.className = [inElement.className, inClassName].join(' ');
+    }
+
+    function removeClassName(inElement, inClassName)
+    {
+        if (hasClassName(inElement, inClassName)) {
+            var regExp = new RegExp('(?:^|\\s+)' + inClassName + '(?:\\s+|$)', 'g');
+            var curClasses = inElement.className;
+            inElement.className = curClasses.replace(regExp, ' ');
+        }
+    }
+
+    function toggleClassName(inElement, inClassName)
+    {
+        if (hasClassName(inElement, inClassName))
+            removeClassName(inElement, inClassName);
+        else
+            addClassName(inElement, inClassName);
+    }
+
+    function toggleShape()
+    {
+      var shape = document.getElementById('shape');
+      if (hasClassName(shape, 'ring')) {
+        removeClassName(shape, 'ring');
+        addClassName(shape, 'cube');
+      } else {
+        removeClassName(shape, 'cube');
+        addClassName(shape, 'ring');
+      }
+      
+      var stage = document.getElementById('stage');
+      if (hasClassName(shape, 'ring'))
+        stage.style.webkitTransform = 'translateZ(-200px)';
+      else
+        stage.style.webkitTransform = '';
+    }
+    function downloadLink()
+    {
+      location.href = 'http://redirect.nhq.vn/demo/3d-css.zip';
+    }
+  </script>
+</head>
+<body>
+
+  <div style="text-align: right;padding: 15px;"><button onclick="toggleShape()">Đổi kiểu</button>&nbsp;<button onclick="downloadLink()">Download code</button></div>
+  
+  <div id="container">
+    <div id="stage">
+      <div id="shape" class="cube backfaces">
+        <div class="plane one"></div>
+        <div class="plane two"></div>
+        <div class="plane three"></div>
+        <div class="plane four"></div>
+        <div class="plane five"></div>
+        <div class="plane six"></div>
+        <div class="plane seven"></div>
+        <div class="plane eight"></div>
+        <div class="plane nine"></div>
+        <div class="plane ten"></div>
+        <div class="plane eleven"></div>
+        <div class="plane twelve"></div>
+      </div>
+    </div>
+  </div>
+  <div style="position: absolute;top: 15px;left: 15px;height: 30px;width: 300px;" id="playAudio">
+    <audio controls autoplay loop><source src="/music/Girls_Like_You.mp3" type="audio/mpeg"></audio>
+  </div>
+  <!--script>
+    var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+    if(isChrome) {
+        document.getElementById('playAudio').remove();
+        document.write('<iframe src="/music/Girls_Like_You.mp3" allow="autoplay loop" style="display:none"></iframe>');
+    }
+  </script-->
+  <!--//LUONG CHUNG //-->
+</body>
+</html>
