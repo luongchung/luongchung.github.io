@@ -47,3 +47,14 @@ permalink: /tailieu/
 <a href="https://drive.google.com/drive/folders/0ByWO0aO1eI_MN1BEd3VNRUZENkU?usp=sharing">
 <b>[FOLDER]</b> TÀI LIỆU TỔNG HỢP TIẾNG ANH </a> 
 <BR>
+
+
+<a href="https://luongchung.github.io/doc/Access security – IPsec SAs.pdf">
+<b>[IMS]</b> Access security – IPsec SAs.pdf </a> 
+<BR>
+<a href="https://luongchung.github.io/doc/De-registration.pdf">
+<b>[IMS]</b> De-registration.pdf </a> 
+<BR>
+<a href="https://luongchung.github.io/doc/SlideDEREGISTRATION.pptx">
+<b>[IMS]</b> SlideDEREGISTRATION.pptx </a> 
+<BR>
