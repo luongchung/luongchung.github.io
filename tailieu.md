@@ -58,3 +58,7 @@ permalink: /tailieu/
 <a href="https://luongchung.github.io/doc/SlideDEREGISTRATION.pptx">
 <b>[IMS]</b> SlideDEREGISTRATION.pptx </a> 
 <BR>
+
+<a href="https://luongchung.github.io/doc/IR.65-v30.0.en.vi.pdf">
+<b>[IMS]</b> IR.65-v30.0.en.vi.pdf</a> 
+<BR>
