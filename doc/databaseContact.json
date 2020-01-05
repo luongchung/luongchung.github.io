@@ -1,44 +1,31 @@
 {
-  "Công nghệ Thông tin":[
+  "Bộ môn Toán học":[
     {
-      "gmail":"Chunglv42@wru.vn",
-      "name":"Luong Van A",
+      "gmail":"",
+      "name":"Trưởng bộ môn TS Nguyễn Hữu Thọ",
+      "sdt":"0984991438",
+      "title":"Tốt nghiệp Đại học Sư phạm Hà nội năm 1989\n\nThạc sỹ năm 2000 tại Viện Toán học- Viện Khoa học và công nghệ VN\n\nBảo vệ luận án Tiến sỹ năm 2006 tại Viện Toán học- Viện Khoa học và công nghệ VN",
+      "face": "",
+      "image": "http://web.archive.org/web/20150317011535im_/http://cse.wru.edu.vn/wp-content/uploads/2011/08/Tho1.jpg"
+    }
+
+  ],
+  "Bộ môn Công nghệ phần mềm":[
+    {
+      "gmail":"tuanla@tlu.edu.vn",
+      "name":"TS Lý Anh Tuấn",
       "sdt":"0984991438",
       "title":"Trưởng Khoa A",
-      "face": "https://stackoverflow.com/questions/5784231/how-to-pass-custom-object-in-bundle",
-      "image": "http://www.phimdacsac.com/img/avatar-default.jpg"
+      "face": "",
+      "image": "http://cse.tlu.edu.vn/Portals/0/Users/Ly_Anh_Tuan.jpg"
     },
     {
-      "gmail":"Chunglv42@wru.vn",
-      "name":"Luong Van B",
-      "sdt":"0984991438",
-      "title":"Trưởng Khoa B"
-    },
-    {
-      "gmail":"Chunglv42@wru.vn",
-      "name":"Luong Van C",
-      "sdt":"0984991438",
-      "title":"Trưởng Khoa C"
-    }
-  ],
-  "Kinh tế và quản lý":[
-    {
-      "gmail":"Chunglv42@wru.vn",
-      "name":"Luong Van A",
-      "sdt":"0984991438",
-      "title":"Trưởng Khoa A"
-    },
-    {
-      "gmail":"Chunglv42@wru.vn",
-      "name":"Luong Van B",
-      "sdt":"0984991438",
-      "title":"Trưởng Khoa B"
-    },
-    {
-      "gmail":"Chunglv42@wru.vn",
-      "name":"Luong Van C",
-      "sdt":"0984991438",
-      "title":"Trưởng Khoa C"
+      "gmail":"",
+      "name":"",
+      "sdt":"",
+      "title":"",
+      "face": "",
+      "image": ""
     }
   ]
 }
