@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2c1b8d7b-622f-4af2-a0f8-17ba312ef763" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/databaseContact.json" beforeDir="false" afterPath="$PROJECT_DIR$/doc/databaseContact.json" afterDir="false" />
     </list>
     <list id="78b89e9f-2692-4f6f-9a1e-168c8aa8d7a6" name="Revert &quot;jjj&quot;" comment="Revert &quot;jjj&quot;&#10;&#10;This reverts commit c351c447" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,7 +31,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/qbee" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
@@ -81,7 +80,7 @@
       <workItem from="1566924688087" duration="146000" />
       <workItem from="1567188448277" duration="1152000" />
       <workItem from="1568679500210" duration="237000" />
-      <workItem from="1578154523800" duration="1113000" />
+      <workItem from="1578154523800" duration="1357000" />
     </task>
     <task id="LOCAL-00001" summary="jjj">
       <created>1566408975642</created>
@@ -174,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578161924815</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="jjj">
+      <created>1578162378988</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1578162378988</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
