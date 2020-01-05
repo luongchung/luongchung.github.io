@@ -2,7 +2,7 @@
   "Bộ môn Toán học":[
     {
       "gmail":"",
-      "name":"Trưởng bộ môn TS Nguyễn Hữu Thọ",
+      "name":"TS Nguyễn Hữu Thọ",
       "sdt":"0984991438",
       "title":"Tốt nghiệp Đại học Sư phạm Hà nội năm 1989\n\nThạc sỹ năm 2000 tại Viện Toán học- Viện Khoa học và công nghệ VN\n\nBảo vệ luận án Tiến sỹ năm 2006 tại Viện Toán học- Viện Khoa học và công nghệ VN",
       "face": "",
@@ -14,18 +14,18 @@
     {
       "gmail":"tuanla@tlu.edu.vn",
       "name":"TS Lý Anh Tuấn",
-      "sdt":"0984991438",
-      "title":"Trưởng Khoa A",
+      "sdt":"",
+      "title":"BM Công nghệ phần mềm, Khoa CNTT, C1 ĐH Thủy lợi, Hà nội\nTrường ĐH Thủy lợi",
       "face": "",
       "image": "http://cse.tlu.edu.vn/Portals/0/Users/Ly_Anh_Tuan.jpg"
     },
     {
-      "gmail":"",
-      "name":"",
+      "gmail":"thanhlnt@tlu.edu.vn",
+      "name":"Lê Nguyễn Tuấn Thành",
       "sdt":"",
-      "title":"",
+      "title":"Modelling and Simulation, Multi-agent Systems, Complex Systems, Model-Driven Engineering, Process Mining, Data Mining, Data Visualization, Big Data, Decision Support System",
       "face": "",
-      "image": ""
+      "image": "http://cse.tlu.edu.vn/Portals/0/Images/Thanh.png"
     }
   ]
 }
