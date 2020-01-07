@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c1b8d7b-622f-4af2-a0f8-17ba312ef763" name="Default Changelist" comment="add qbee">
+    <list default="true" id="2c1b8d7b-622f-4af2-a0f8-17ba312ef763" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/_posts/2020-01-08-code-test-zip.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doc/databaseContact.json" beforeDir="false" afterPath="$PROJECT_DIR$/doc/databaseContact.json" afterDir="false" />
     </list>
@@ -32,17 +33,17 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/qbee" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_posts" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_posts" />
       <recent name="$PROJECT_DIR$/qbee" />
       <recent name="$PROJECT_DIR$/doc" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/zip" />
-      <recent name="$PROJECT_DIR$/css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -82,7 +83,8 @@
       <workItem from="1567188448277" duration="1152000" />
       <workItem from="1568679500210" duration="237000" />
       <workItem from="1578154523800" duration="3655000" />
-      <workItem from="1578220970627" duration="762000" />
+      <workItem from="1578220970627" duration="1504000" />
+      <workItem from="1578420662448" duration="123000" />
     </task>
     <task id="LOCAL-00001" summary="jjj">
       <created>1566408975642</created>
@@ -203,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578221335764</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="add qbee">
+      <created>1578221739505</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1578221739505</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
