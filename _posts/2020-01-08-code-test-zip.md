@@ -1,153 +1,181 @@
 ---
 layout: post
-title:  "ZIP JAVA"
+title:  "TEST "
 date:   2017-09-17 13:50:29
 categories: laptrinhphantan
 ---
 
     #include <iostream>
-    #define SIZE_DB 50000
-    #define CHAR_SIZE 20
-    #define FIELD_SIZE 5
-    #define HASH_SIZE 1000007
-    #define POOL_SIZE 1000000
     using namespace std;
+    #define SIZE 80
+    #define SIZE_W 50
+    #define SIZE_POOL 10000007
     
-    typedef enum{
-        NAME,
-        NUMBER,
-        BIRTHDAY,
-        EMAIL,
-        MEMO
-    }FIELD;
-    typedef struct{
+    void copy(char* n,char* d){
+        while (*n != '\0'){
+            *d++ = *n++;
+        }
+        *d='\0';
+    }
+    bool compare(char* a, char* b){
+        while (a){
+            if(*a!=*b)return false;
+            a++;
+            b++;
+        }
+        return *a==*b;
+    }
+    
+    struct Node{
+        Node* chill[SIZE];
         int count;
-        char tr[20];
-    }RESULT;
-    
-    void strCopy(char* d,char* n){
-        int i=0;
-        while (n[i]!='\0'){
-            d[i] = n[i];
-            i++;
-        }
-        d[i] = '\0';
-    }
-    bool strComp(char* a,char* b){
-        while (*a==*b){
-            if(*a=='\0')return true;
-            a++;b++;
-        }
-        return false;
-    }
-    
-    struct Contact{
-        char A[FIELD_SIZE][CHAR_SIZE];
-        bool isDelete;
+        bool isEnd;
+        char world[SIZE_W];
     };
-    int index_db=0;
-    Contact DB[SIZE_DB];
     
-    struct Item{
-        int index;
-        Item* next;
-    };
-    Item* TABLE[FIELD_SIZE][HASH_SIZE];
-    
-    int index_pool=0;
-    Item POOL[POOL_SIZE];
-    Item* getPool(){
-        return &POOL[index_pool++];
-    }
-    
-    int hashindex(char *str)
-    {
-        unsigned long hash = 5381;
-        int c;
-        while (c = *str++)
-            hash = ((hash << 5) + hash) + c; /* hash * 33 + c */
-    
-        return hash%HASH_SIZE;
-    }
-    
-    void initDB(){
-        index_db=0;
-        index_pool=0;
-    }
-    void AddTable(FIELD field,char* str){
-        Item* newItem =getPool();
-        if(TABLE[field][hashindex(str)]==0){
-            newItem->index=index_db;
-            TABLE[field][hashindex(str)] = newItem;
-        } else{
-            newItem->index=index_db;
-            newItem->next = TABLE[field][hashindex(str)];
-            TABLE[field][hashindex(str)] = newItem;
+    int index_pool;
+    Node POOL[SIZE_POOL];
+    Node* getNode(){
+        Node* node = &POOL[index_pool++];
+        for (int i = 0; i < SIZE; ++i) {
+            node->chill[i]=0;
         }
+        node->count = 0;
+        node->isEnd = false;
+        node->world[0] = '\0';
+        return node;
     }
-    void Add(char* name,char* number, char* birthday, char* email, char* memo){
-        //add to BD
-        strCopy(DB[index_db].A[NAME],name);
-        strCopy(DB[index_db].A[NUMBER],number);
-        strCopy(DB[index_db].A[BIRTHDAY],birthday);
-        strCopy(DB[index_db].A[EMAIL],email);
-        strCopy(DB[index_db].A[MEMO],memo);
-        DB[index_db].isDelete = false;
     
-        //Save to hashtable
-        AddTable(NAME,name);
-        AddTable(NUMBER,number);
-        AddTable(BIRTHDAY,birthday);
-        AddTable(EMAIL,email);
-        AddTable(MEMO,memo);
+    Node* rootTree;
+    Node* rootCompany;
     
-        index_db++;
+    void init(){
+        index_pool = 0;
+        rootTree =getNode();
+        rootCompany = getNode();
     }
-    int Delete(FIELD field, char* str){
-        Item* list = TABLE[field][hashindex(str)];
-        while (list){
-            if (strComp(DB[list->index].A[field],str)){
-                DB[list->index].isDelete = true;
-            }
-            list=list->next;
-        }
-    }
-    int Change(FIELD field, char* str,FIELD changefield, char* changestr){
-        Item* list = TABLE[field][hashindex(str)];
-        int result = 0;
-        while (list){
-            if (!DB[list->index].isDelete && strComp(DB[list->index].A[field],str)) {
-                strCopy(DB[list->index].A[changefield], changestr);
-                result++;
-            }
-            list=list->next;
+    
+    char* nameCompany(char* email){
+        char result[50];
+        while (*email != '@')email++;
+        email++;
+        for (int i = 0; *email != '.' ; ++i) {
+            result[i] = *email;
+            email++;
         }
         return result;
     }
-    RESULT Search(FIELD field, char* str, FIELD returnfield){
-        RESULT *result =new RESULT ();
-        Item* list = TABLE[field][hashindex(str)];
-        result->count=0;
-        result->tr[0]='\0';
-        while (list){
-            if (!DB[list->index].isDelete && strComp(DB[list->index].A[field],str)){
-                strCopy(result->tr,DB[list->index].A[returnfield]);
-                result->count++;
+    void Add(char email[]){
+        //kiểm tra có chưa
+    
+    
+        //add email
+        Node* tmp = rootTree;
+        for (int i = 0; email[i] != '\0'; ++i) {
+            int index = email[i] - '.';
+            if(tmp->chill[index] == 0){
+                tmp->chill[index] = getNode();
             }
-            list=list->next;
+            tmp = tmp -> chill[index];
+            tmp->count++;
         }
-        if(result->count > 1)result->tr[0]='\0';
-        return *result;
+        tmp->isEnd = true;
+        copy(email,tmp->world);
+    
+        //add company
+        Node* tmpCP = rootCompany;
+        email = nameCompany(email);
+        for (int i = 0; email[i] != '\0'; ++i) {
+            int index = email[i] - '.';
+            if(tmpCP->chill[index] == 0){
+                tmpCP->chill[index] = getNode();
+            }
+            tmpCP = tmpCP -> chill[index];
+        }
+        tmpCP->count++;
+    }
+    void Delete(char email[]){
+        //kiểm tra có chưa
+    
+    
+        //delete email
+        Node* tmp = rootTree;
+        for (int i = 0; email[i] != '\0'; ++i) {
+            int index = email[i] - '.';
+            if(tmp->chill[index] == 0){
+                tmp->chill[index] = getNode();
+            }
+            tmp = tmp -> chill[index];
+            tmp->count--;
+        }
+        tmp->isEnd = false;
+        tmp->world[0] = '\0';
+    
+        //delete company
+        Node* tmpCP = rootCompany;
+        email = nameCompany(email);
+        for (int i = 0; email[i] != '\0'; ++i) {
+            int index = email[i] - '.';
+            if(tmpCP->chill[index] == 0){
+                tmpCP->chill[index] = getNode();
+            }
+            tmpCP = tmpCP -> chill[index];
+        }
+        tmpCP->count--;
+    
+    }
+    char save[50];
+    int ma;
+    void run(Node* s){
+        if(s->isEnd && s->count > ma){
+            copy(s->world,save);
+            ma = s->count;
+        }
+        for (int i = 0; i < 80; ++i) {
+            if(s->chill[i] != 0 && s->chill[i]->count > 0){
+                run(s->chill[i]);
+            }
+        }
+    
+    }
+    int Search(char* pre, char* result){
+        Node* tmp = rootTree;
+        for (; *pre != '\0'; pre++) {
+            int index = *pre - '.';
+            if(tmp->chill[index] == 0){
+                tmp->chill[index] = getNode();
+            }
+            tmp = tmp -> chill[index];
+        }
+        ma=-1;
+        save[0] = '\0';
+        run(tmp);
+        copy(save,result);
+        return tmp->count;
     }
     
+    int SearchbyCompany(char company[]){
+        Node* tmpCP = rootCompany;
+        for (int i = 0; company[i] != '\0'; ++i) {
+            int index = company[i] - '.';
+            if(tmpCP->chill[index] == 0){
+                tmpCP->chill[index] = getNode();
+            }
+            tmpCP = tmpCP -> chill[index];
+        }
+        return tmpCP->count;
+    }
     int main()
     {
-        initDB();
-        Add("chung","098","1311","chung.lv1","hello");
-       // Add("chung","0980","1311","chung.lv11","hello");
-        Change(NAME,"chung",EMAIL,"luongchung@");
-        Delete(NAME,"chung");
-        RESULT result = Search(NAME,"chung",EMAIL);
+        init();
+        Add("chung11@aa.c");
+        Add("chung1@aa.c");
+        Add("chung2@aa.c");
+        char kq[50];
+        int i =Search("chu",kq);
+        Delete("chung2@aa.c");
+    
+        int a = SearchbyCompany("aa");
         cout << "Hello, Dcoder!";
     }
     
