@@ -6,177 +6,125 @@ categories: laptrinhphantan
 ---
 
     #include <iostream>
+    #define POOL_SIZE 1000000
     using namespace std;
-    #define SIZE 80
-    #define SIZE_W 50
-    #define SIZE_POOL 10000007
     
-    void copy(char* n,char* d){
-        while (*n != '\0'){
-            *d++ = *n++;
-        }
-        *d='\0';
-    }
-    bool compare(char* a, char* b){
-        while (a){
-            if(*a!=*b)return false;
-            a++;
-            b++;
-        }
-        return *a==*b;
-    }
-    
-    struct Node{
-        Node* chill[SIZE];
-        int count;
-        bool isEnd;
-        char world[SIZE_W];
-    };
-    
-    int index_pool;
-    Node POOL[SIZE_POOL];
-    Node* getNode(){
-        Node* node = &POOL[index_pool++];
-        for (int i = 0; i < SIZE; ++i) {
-            node->chill[i]=0;
-        }
-        node->count = 0;
-        node->isEnd = false;
-        node->world[0] = '\0';
+    struct Node {
+        int key;
+        Node *left, *right;
+    }POOL[POOL_SIZE];
+    int index_p;
+    Node* root = 0;
+    Node* newNode(int value){
+        Node* node = &POOL[index_p++];
+        node->left = 0;
+        node->right =0;
+        node->key = value;
         return node;
     }
     
-    Node* rootTree;
-    Node* rootCompany;
     
-    void init(){
-        index_pool = 0;
-        rootTree =getNode();
-        rootCompany = getNode();
-    }
-    
-    char* nameCompany(char* email){
-        char result[50];
-        while (*email != '@')email++;
-        email++;
-        for (int i = 0; *email != '.' ; ++i) {
-            result[i] = *email;
-            email++;
+    // Insert a node
+    void insertNode(int value) {
+        Node* node = root;
+        if (node == 0){
+            root = newNode(value);
+            return;
         }
-        return result;
-    }
-    void Add(char email[]){
-        //kiểm tra có chưa
-    
-    
-        //add email
-        Node* tmp = rootTree;
-        for (int i = 0; email[i] != '\0'; ++i) {
-            int index = email[i] - '.';
-            if(tmp->chill[index] == 0){
-                tmp->chill[index] = getNode();
+        while (true){
+            if(value == node->key)return;
+            if (value < node->key){
+                if(node->left==0){
+                    node->left = newNode(value);
+                    return;
+                }
+                node = node->left;
             }
-            tmp = tmp -> chill[index];
-            tmp->count++;
-        }
-        tmp->isEnd = true;
-        copy(email,tmp->world);
-    
-        //add company
-        Node* tmpCP = rootCompany;
-        email = nameCompany(email);
-        for (int i = 0; email[i] != '\0'; ++i) {
-            int index = email[i] - '.';
-            if(tmpCP->chill[index] == 0){
-                tmpCP->chill[index] = getNode();
-            }
-            tmpCP = tmpCP -> chill[index];
-        }
-        tmpCP->count++;
-    }
-    void Delete(char email[]){
-        //kiểm tra có chưa
-    
-    
-        //delete email
-        Node* tmp = rootTree;
-        for (int i = 0; email[i] != '\0'; ++i) {
-            int index = email[i] - '.';
-            if(tmp->chill[index] == 0){
-                tmp->chill[index] = getNode();
-            }
-            tmp = tmp -> chill[index];
-            tmp->count--;
-        }
-        tmp->isEnd = false;
-        tmp->world[0] = '\0';
-    
-        //delete company
-        Node* tmpCP = rootCompany;
-        email = nameCompany(email);
-        for (int i = 0; email[i] != '\0'; ++i) {
-            int index = email[i] - '.';
-            if(tmpCP->chill[index] == 0){
-                tmpCP->chill[index] = getNode();
-            }
-            tmpCP = tmpCP -> chill[index];
-        }
-        tmpCP->count--;
-    
-    }
-    char save[50];
-    int ma;
-    void run(Node* s){
-        if(s->isEnd && s->count > ma){
-            copy(s->world,save);
-            ma = s->count;
-        }
-        for (int i = 0; i < 80; ++i) {
-            if(s->chill[i] != 0 && s->chill[i]->count > 0){
-                run(s->chill[i]);
+            else {
+                if(node->right==0) {
+                    node->right = newNode(value);
+                    return;
+                }
+                node = node->right;
             }
         }
-    
-    }
-    int Search(char* pre, char* result){
-        Node* tmp = rootTree;
-        for (; *pre != '\0'; pre++) {
-            int index = *pre - '.';
-            if(tmp->chill[index] == 0){
-                tmp->chill[index] = getNode();
-            }
-            tmp = tmp -> chill[index];
-        }
-        ma=-1;
-        save[0] = '\0';
-        run(tmp);
-        copy(save,result);
-        return tmp->count;
     }
     
-    int SearchbyCompany(char company[]){
-        Node* tmpCP = rootCompany;
-        for (int i = 0; company[i] != '\0'; ++i) {
-            int index = company[i] - '.';
-            if(tmpCP->chill[index] == 0){
-                tmpCP->chill[index] = getNode();
+    // Deleting a node
+    bool deleteNode(Node* n, int value){
+        if (n == 0) return false;
+        else if (n->key > value) return deleteNode(n->left, value);
+        else if (n->key < value) return deleteNode(n->right, value);
+        else
+        {
+            if (n->left == 0) n = n->right;    // Node chi co cay con phai
+            else if (n->right == 0) n = n->left;   // Node chi co cay con trai
+            else // Node co ca 2 con
+            {
+                Node *tmp = n->left;
+                while (tmp->right != 0)
+                {
+                    tmp = tmp->right;
+                }
+                n->key = tmp->key;
+                deleteNode(n->left, tmp->key);
             }
-            tmpCP = tmpCP -> chill[index];
         }
-        return tmpCP->count;
+        return true;
     }
+    
+    
+    int abs1(int a){
+        if(a<0)a*=-1;
+        return a;
+    }
+    int diff = 10000000;
+    int save = -1;
+    void nhoGanNhat(Node* n,int value){
+        if(n == 0)return;
+        if(value > n->key && abs1(value-n->key)<diff){
+            diff = abs1(value-n->key);
+            save = n->key;
+        }
+        if(n->key > value)nhoGanNhat(n->left,value);
+        else if(n->key < value)nhoGanNhat(n->right,value);
+        else nhoGanNhat(n->left,value);
+    }
+    
+    void lonGanNhat(Node* n,int value){
+        if(n == 0)return;
+        if(value < n->key && abs1(value-n->key)<diff){
+            diff = abs1(value-n->key);
+            save = n->key;
+        }
+        if(n->key > value)lonGanNhat(n->left,value);
+        else if(n->key < value)lonGanNhat(n->right,value);
+        else lonGanNhat(n->right,value);
+    }
+    
     int main()
     {
-        init();
-        Add("chung11@aa.c");
-        Add("chung1@aa.c");
-        Add("chung2@aa.c");
-        char kq[50];
-        int i =Search("chu",kq);
-        Delete("chung2@aa.c");
+        insertNode(8);
+        insertNode(10);
+        insertNode(3);
+        insertNode(1);
+        insertNode(6);
+        insertNode(14);
+        insertNode(4);
+        insertNode(7);
+        insertNode(13);
     
-        int a = SearchbyCompany("aa");
-        cout << "Hello, Dcoder!";
+        bool kt = deleteNode(root,14);
+        diff = 10000000;
+        save = -1;
+        int a = 14;
+        nhoGanNhat(root,a);
+        cout<<"Nho gan nhat: "<<save<<endl;
+        diff = 10000000;
+        save = -1;
+        lonGanNhat(root,a);
+        cout<<"Lon gan nhat: "<<save<<endl;
+    
     }
     
 
