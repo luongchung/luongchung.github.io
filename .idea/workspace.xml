@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c1b8d7b-622f-4af2-a0f8-17ba312ef763" name="Default Changelist" comment="hello">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tluschedule/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tluschedule/index.html" afterDir="false" />
     </list>
     <list id="78b89e9f-2692-4f6f-9a1e-168c8aa8d7a6" name="Revert &quot;jjj&quot;" comment="Revert &quot;jjj&quot;&#10;&#10;This reverts commit c351c447" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +37,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tluschedule" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -86,6 +86,7 @@
       <workItem from="1611667515693" duration="1756000" />
       <workItem from="1611840463836" duration="716000" />
       <workItem from="1611990819731" duration="1719000" />
+      <workItem from="1614066189028" duration="488000" />
     </task>
     <task id="LOCAL-00001" summary="jjj">
       <created>1566408975642</created>
@@ -318,7 +319,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611991997117</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="hello">
+      <created>1614066450482</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1614066450483</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
