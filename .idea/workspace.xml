@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c1b8d7b-622f-4af2-a0f8-17ba312ef763" name="Default Changelist" comment="hello">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tluschedule/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tluschedule/index.html" afterDir="false" />
     </list>
     <list id="78b89e9f-2692-4f6f-9a1e-168c8aa8d7a6" name="Revert &quot;jjj&quot;" comment="Revert &quot;jjj&quot;&#10;&#10;This reverts commit c351c447" />
@@ -86,7 +87,8 @@
       <workItem from="1611667515693" duration="1756000" />
       <workItem from="1611840463836" duration="716000" />
       <workItem from="1611990819731" duration="1719000" />
-      <workItem from="1614066189028" duration="488000" />
+      <workItem from="1614066189028" duration="972000" />
+      <workItem from="1614685329535" duration="76000" />
     </task>
     <task id="LOCAL-00001" summary="jjj">
       <created>1566408975642</created>
@@ -326,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614066450483</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="hello">
+      <created>1614066750044</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1614066750044</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
