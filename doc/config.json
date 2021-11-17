@@ -1,11 +1,12 @@
 {
-    "Image" :"https://luongchung.github.io/static/img/avatar.png",
+    "verj": 1,
+    "Image" :"https://i.ibb.co/sF7TMQY/Picture1.png",
     "URL_AUTHEN":"",
     "URL_GETSCHEDULE":"",
     "URL_HUONGDAN":"https://www.youtube.com/watch?v=4NsEmHTatUA",
     "USER_BLOCK":"",
     "VER_BLOCK":"",
     "click":"google.com",
-    "sub":"Nhập mã giới thiệu từ bạn bè để tắt quảng cáo.",
+    "sub":"Nhập mã giới thiệu từ bạn bè để tắt quảng cáo. V1",
     "ver":"10.4"
 }
