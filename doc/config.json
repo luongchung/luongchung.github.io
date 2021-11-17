@@ -1,5 +1,5 @@
 {
-    "verj": 1,
+    "verj": 2,
     "Image" :"https://i.ibb.co/sF7TMQY/Picture1.png",
     "URL_AUTHEN":"",
     "URL_GETSCHEDULE":"",
@@ -7,6 +7,6 @@
     "USER_BLOCK":"",
     "VER_BLOCK":"",
     "click":"google.com",
-    "sub":"Nhập mã giới thiệu từ bạn bè để tắt quảng cáo. V1",
+    "sub":"Nhập mã giới thiệu từ bạn bè để tắt quảng cáo. V2",
     "ver":"10.4"
 }
