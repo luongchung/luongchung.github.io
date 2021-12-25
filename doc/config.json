@@ -8,5 +8,10 @@
     "VER_BLOCK":"",
     "click":"https://play.google.com/store/apps/details?id=vn.lcsoft.luongchung.tluschedule",
     "sub":"Nếu không thể tải được lịch học hãy cập nhập bản mới nhất!",
-    "ver":"10.1,10.2,10.3,10.5"
+    "ver":"10.1,10.2,10.3,10.5",
+    "ads" : 
+    { 
+        "60" : "ON", 
+        "61" : "OFF"
+    }
 }
