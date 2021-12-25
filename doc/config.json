@@ -1,5 +1,5 @@
 {
-    "verj": 4,
+    "verj": 5,
     "Image" :"https://www.freeiconspng.com/thumbs/error-icon/error-icon-32.png",
     "URL_AUTHEN":"https://sinhvien.tlu.edu.vn:8099/education/oauth/token",
     "URL_GETSCHEDULE":"https://sinhvien.tlu.edu.vn:8099/education/api/StudentCourseSubject/studentLoginUser/",
@@ -9,6 +9,7 @@
     "click":"https://play.google.com/store/apps/details?id=vn.lcsoft.luongchung.tluschedule",
     "sub":"Nếu không thể tải được lịch học hãy cập nhập bản mới nhất!",
     "ver":"10.1,10.2,10.3,10.5",
+    "sync":"OFF",
     "ads" : 
     { 
         "60" : "ON", 
