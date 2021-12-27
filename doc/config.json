@@ -1,5 +1,5 @@
 {
-  "verj": 6,
+  "verj": 7,
   "Image" :"https://www.freeiconspng.com/thumbs/error-icon/error-icon-32.png",
   "URL_AUTHEN":"https://sinhvien.tlu.edu.vn:8099/education/oauth/token",
   "URL_GETSCHEDULE":"https://sinhvien.tlu.edu.vn:8099/education/api/StudentCourseSubject/studentLoginUser/",
