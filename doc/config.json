@@ -1,5 +1,5 @@
 {
-  "verj": 9,
+  "verj": 10,
   "Image" :"https://www.freeiconspng.com/thumbs/error-icon/error-icon-32.png",
   "URL_AUTHEN":"https://sinhvien.tlu.edu.vn:8099/education/oauth/token",
   "URL_GETSCHEDULE":"https://sinhvien.tlu.edu.vn:8099/education/api/StudentCourseSubject/studentLoginUser/",
@@ -16,6 +16,10 @@
     "60" : "ON",
     "61" : "ON",
     "64" : "OFF",
-    "65" : "ON"
+    "65" : "ON",
+    "66" : "ON",
+    "67" : "ON",
+    "68" : "ON",
+    "69" : "ON"
   }
 }
