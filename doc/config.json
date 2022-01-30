@@ -2,7 +2,7 @@
   "verj": 11,
   "Image" :"https://www.freeiconspng.com/thumbs/error-icon/error-icon-32.png",
   "URL_AUTHEN":"http://sinhvien.tlu.edu.vn:8099/education/oauth/token",
-  "URL_GETSCHEDULE":"http://sinhvien.tlu.edu.vn:8099/education/api/StudentCourseSubject/studentLoginUser/",
+  "URL_GETSCHEDULE":"http://sinhvien.tlu.edu.vn:8099/education/api/StudentCourseSubject/studentLoginUser",
   "URL_HUONGDAN":"https://www.youtube.com/watch?v=4NsEmHTatUA",
   "USER_BLOCK":"",
   "VER_BLOCK":"10.9",
