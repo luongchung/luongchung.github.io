@@ -1,8 +1,8 @@
 {
-  "verj": 16,
+  "verj": 17,
   "Image" :"https://kynguyengroup.com/wp-content/uploads/2021/12/Happy-Lunar-New-Year-2022-poster-landscape.png",
-  "URL_AUTHEN":"https://sinhvien.tlu.edu.vn:8087/education/oauth/token",
-  "URL_GETSCHEDULE":"https://sinhvien.tlu.edu.vn:8087/education/api/StudentCourseSubject/studentLoginUser/",
+  "URL_AUTHEN":"https://sinhvien.tlu.edu.vn:8082/education/oauth/token",
+  "URL_GETSCHEDULE":"https://sinhvien.tlu.edu.vn:8082/education/api/StudentCourseSubject/studentLoginUser/",
   "URL_HUONGDAN":"https://www.youtube.com/watch?v=4NsEmHTatUA",
   "USER_BLOCK":"",
   "VER_BLOCK":"10.1,10.2,10.3,10.5,10.6,10.7,10.8,10.9,11.0,11.1,11.2,11.3,11.4",
@@ -12,6 +12,7 @@
   "timesync": 43200000,
   "NUMCOUNTADS": 10,
   "LOGINNOPASS": "YES",
+  "sync":"OFF",
   "ads" :
   {
     "60" : "ON",
