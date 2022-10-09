@@ -1,8 +1,8 @@
 {
-  "verj": 18,
+  "verj": 20,
   "Image" :"",
-  "URL_AUTHEN":"https://sinhvien.tlu.edu.vn:8098/education/oauth/token",
-  "URL_GETSCHEDULE":"https://sinhvien.tlu.edu.vn:8098/education/api/StudentCourseSubject/studentLoginUser/",
+  "URL_AUTHEN":"ttps://sinhvien4.tlu.edu.vn:8098/education/oauth/token",
+  "URL_GETSCHEDULE":"ttps://sinhvien4.tlu.edu.vn:8098/education/api/StudentCourseSubject/studentLoginUser/",
   "URL_HUONGDAN":"https://www.youtube.com/watch?v=4NsEmHTatUA",
   "USER_BLOCK":"",
   "VER_BLOCK":"10.1,10.2,10.3,10.5,10.6,10.7,10.8,10.9,11.0,11.1,11.2,11.3,11.4",
