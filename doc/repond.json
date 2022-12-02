@@ -1,0 +1,110 @@
+{
+    "resp": {
+        "primKey": "63759c0380f2a00a7f6ed946",
+        "VaiTroSuDung": [
+            {
+                "@type": "C_VaiTroSuDung",
+                "TenMuc": "Trưởng phòng",
+                "MaMuc": "01"
+            }
+        ],
+        "uuid": "c82d57cb-6b79-43ce-98b4-b1f4a4562a8d-dpvpc0mdcevx2djl-1668652035116-CB",
+        "MaPhienBan": "",
+        "DanhTinhDienTu": [
+            {
+                "HeThongDinhDanh": {
+                    "@type": "C_HeThongDinhDanh",
+                    "TenMuc": "Hệ thống định danh SSO",
+                    "MaMuc": "sso"
+                },
+                "TinhTrangSuDungTaiKhoan": {
+                    "@type": "C_TinhTrangSuDungTaiKhoan",
+                    "TenMuc": "Đang sử dụng ",
+                    "MaMuc": "02"
+                },
+                "ThoiDiemTruyCap": null,
+                "primKey": "638700e849cb6b413ec81d81",
+                "NgayDongTaiKhoan": null,
+                "MaSoID": "",
+                "VaiTroSuDung": [],
+                "TenDinhDanh": "tdtrung_ttr@mt.gov.vn",
+                "NgayDangKySuDung": null,
+                "uuid": "71a536e6-7d09-486a-9014-afd0ba3264dd-a6s1hob5cjlnehlw-1669791976109-DTDT",
+                "TenGoi": "Trưởng phòng Thân Đức Trung ",
+                "DoiTuongXacThuc": {
+                    "@type": "T_CanBo",
+                    "MaDinhDanh": "CanBo:MS10",
+                    "TenGoi": "Trưởng phòng Thân Đức Trung "
+                }
+            }
+        ],
+        "PhanQuyenVaiTro": [
+            {
+                "QuyenTao": true,
+                "BoDuLieu": "CanBo",
+                "QuyenXoa": true,
+                "QuyenDoc": true,
+                "QuyenGhi": true
+            },
+            {
+                "QuyenTao": true,
+                "BoDuLieu": "CoQuanDonVi",
+                "QuyenXoa": true,
+                "QuyenDoc": true,
+                "QuyenGhi": true
+            },
+            {
+                "QuyenTao": true,
+                "BoDuLieu": "PhongBan",
+                "QuyenXoa": true,
+                "QuyenDoc": true,
+                "QuyenGhi": true
+            },
+            {
+                "QuyenTao": true,
+                "BoDuLieu": "ViTriChucDanh",
+                "QuyenXoa": true,
+                "QuyenDoc": true,
+                "QuyenGhi": true
+            },
+            {
+                "QuyenTao": false,
+                "BoDuLieu": "DanhMuc",
+                "QuyenXoa": false,
+                "QuyenDoc": false,
+                "QuyenGhi": false
+            },
+            {
+                "QuyenTao": true,
+                "BoDuLieu": "PhanQuyen",
+                "QuyenXoa": true,
+                "QuyenDoc": true,
+                "QuyenGhi": true
+            },
+            {
+                "QuyenTao": true,
+                "BoDuLieu": "DanhTinhDienTu",
+                "QuyenXoa": true,
+                "QuyenDoc": true,
+                "QuyenGhi": true
+            }
+        ],
+        "MaDinhDanh": "CanBo:MS10",
+        "HoVaTen": "Thân Đức Trung ",
+        "ThoiGianCapNhat": "2022-11-30T07:06:16",
+        "AnhCaNhan": {
+            "KichThuocTep": null,
+            "@type": "S_TepDuLieu",
+            "DinhDangTep": "",
+            "MaDinhDanh": "",
+            "NoiDungDuLieu": null,
+            "TenTep": ""
+        },
+        "ThoiGianTao": "2022-11-17T02:27:15",
+        "TenGoi": "Trưởng phòng Thân Đức Trung ",
+        "LienKetURL": ""
+    },
+    "message": "success",
+    "timestamp": "2022-11-30 15:12:16.468",
+    "status": 200
+}
