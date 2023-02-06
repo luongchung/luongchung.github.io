@@ -1,5 +1,5 @@
 {
-  "verj": 22,
+  "verj": 23,
   "Image" :"",
   "URL":"https://sinhvien4.tlu.edu.vn:8098",
   "ADSIOS":"OK",
@@ -10,8 +10,8 @@
   "USER_BLOCK":"",
   "VER_BLOCK":"10.1,10.2,10.3,10.5,10.6,10.7,10.8,10.9,11.0,11.1,11.2,11.3,11.4",
   "click":"https://play.google.com/store/apps/details?id=vn.lcsoft.luongchung.tluschedule",
-  "sub":"Nếu không thể tải được lịch học hãy cập nhập bản mới nhất! (Phiên bản 11.5)",
-  "ver":"10.1,10.2,10.3,10.5,10.6,10.7,10.8,10.9,11.0,11.1,11.2,11.3,11.4",
+  "sub":"Nếu lỗi không thể tải được lịch. Hãy click nút tải lại nhiều lần...",
+  "ver":"10.1,10.2,10.3,10.5,10.6,10.7,10.8,10.9,11.0,11.1,11.2,11.3,11.4,11.5,11.6",
   "timesync": 43200000,
   "NUMCOUNTADS": 10,
   "LOGINNOPASS": "NO",
