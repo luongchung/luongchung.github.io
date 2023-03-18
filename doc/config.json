@@ -2,6 +2,8 @@
   "verj": 24,
   "Image" :"",
   "URL":"https://sinhvien1.tlu.edu.vn:8098",
+  "ADSANDROID":"OK",
+  "ADSANDROIDVER":"1.0.2,",
   "ADSIOS":"OK",
   "ADSIOSVER":"1.0.1,1.0.2",
   "URL_AUTHEN":"https://sinhvien1.tlu.edu.vn:8098/education/oauth/token",
