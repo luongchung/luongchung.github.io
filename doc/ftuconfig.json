@@ -7,7 +7,7 @@
   "ADSIOSVER":"1.0.1",
   "URL_AUTHEN":"https://sinhvien1.tlu.edu.vn:8098/education/oauth/token",
   "URL_GETSCHEDULE":"https://sinhvien1.tlu.edu.vn:8098/education/api/StudentCourseSubject/studentLoginUser/",
-  "URL_HUONGDAN":"https://www.youtube.com/watch?v=4NsEmHTatUA",
+  "WEBSUPPORT":"https://www.youtube.com/watch?v=4NsEmHTatUA",
   "USER_BLOCK":"",
   "VER_BLOCK":"",
   "G": {"0":0,"1":7,"2":7,"3":8,"4":9,"5":10,"6":11,"7":12,"8":13,"9":14,"10":15,"11":16,"12":17,"13":18,"14":19,"15":20},
