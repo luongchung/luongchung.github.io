@@ -64,7 +64,7 @@
             "MSG": "Ứng dụng chưa hỗ trợ trường này",
             "SVS": "FALSE",
             "SVURL": "http://ftugate.ftu.edu.vn/api/auth/login",
-            "URL_SCHEDULE": "http://ftugate.ftu.edu.vn/api/auth/login",
+            "URL_SCHEDULE": "https://sinhvien1.tlu.edu.vn:8098",
             "URL_AUTHEN": "http://ftugate.ftu.edu.vn/api/sch/w-locdshockytkbuser",
             "URL_GETSCHEDULE": "http://ftugate.ftu.edu.vn/api/sch/w-locdstkbhockytheodoituong",
             "G": {
