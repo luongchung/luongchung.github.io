@@ -9,7 +9,9 @@
     "WEB_SUPPORT": "https://www.facebook.com/TLU.Schedule",
     "LISTSC": [
         {
-            "name": "TLU",
+            "name": "FTU",
+            "image": "https://upload.wikimedia.org/wikipedia/vi/9/95/FTU%27s_logo.jpg",
+            "fullname": "ĐH Ngoại thương",
             "URL_SCHEDULE": "http://ftugate.ftu.edu.vn/api/auth/login",
             "URL_AUTHEN": "http://ftugate.ftu.edu.vn/api/sch/w-locdshockytkbuser",
             "URL_GETSCHEDULE": "http://ftugate.ftu.edu.vn/api/sch/w-locdstkbhockytheodoituong",
@@ -51,7 +53,9 @@
             }
         },
         {
-            "name": "FTU",
+            "name": "TLU",
+            "image": "https://upload.wikimedia.org/wikipedia/vi/b/bc/Logo-Thuy_Loi.png",
+            "fullname": "ĐH Thủy Lợi",
             "URL_SCHEDULE": "http://ftugate.ftu.edu.vn/api/auth/login",
             "URL_AUTHEN": "http://ftugate.ftu.edu.vn/api/sch/w-locdshockytkbuser",
             "URL_GETSCHEDULE": "http://ftugate.ftu.edu.vn/api/sch/w-locdstkbhockytheodoituong",
