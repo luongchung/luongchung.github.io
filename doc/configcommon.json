@@ -109,7 +109,7 @@
             "name": "NEU",
             "image": "https://upload.wikimedia.org/wikipedia/vi/3/30/Logo-NEU.PNG",
             "fullname": "ĐH Kinh Tế Quốc Dân",
-            "LOCK": "FALSE",
+            "LOCK": "TRUE",
             "MSG": "Hệ thống NEU chưa sẵn sàng. liên hệ admin để hỗ trợ",
             "SVS": "TRUE",
             "SVURL": "https://appdriveformac.github.io/",
