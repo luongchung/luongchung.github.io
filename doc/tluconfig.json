@@ -4,7 +4,7 @@
     "ADSANDROIDVER": "",
     "ADSIOS": "OK",
     "ADSIOSVER": "",
-    "URL_SCHEDULE": "https://sinhvien1.tlu.edu.vn:8098/education/oauth/token",
+    "URL_SCHEDULE": "https://sinhvien1.tlu.edu.vn:8098",
     "URL_AUTHEN": "https://sinhvien1.tlu.edu.vn:8098/education/oauth/token",
     "URL_GETSCHEDULE": "https://sinhvien1.tlu.edu.vn:8098/education/api/StudentCourseSubject/studentLoginUser/",
     "WEB_SUPPORT": "https://m.me/107387659045374",
