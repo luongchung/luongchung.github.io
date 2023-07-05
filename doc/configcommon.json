@@ -12,7 +12,7 @@
         {
             "name": "FTU",
             "image": "https://upload.wikimedia.org/wikipedia/vi/9/95/FTU%27s_logo.jpg",
-            "fullname": "ĐH Ngoại thương CS1",
+            "fullname": "ĐH Ngoại thương - HN",
             "LOCK": "FALSE",
             "MSG": "Hệ thống trường đang bảo trì",
             "SVS": "FALSE",
@@ -60,7 +60,7 @@
         {
             "name": "FTU2",
             "image": "https://upload.wikimedia.org/wikipedia/vi/9/95/FTU%27s_logo.jpg",
-            "fullname": "ĐH Ngoại thương CS2",
+            "fullname": "ĐH Ngoại thương - HCM",
             "LOCK": "TRUE",
             "MSG": "Hệ thống trường đang bảo trì",
             "SVS": "FALSE",
