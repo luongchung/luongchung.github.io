@@ -109,7 +109,7 @@
             "name": "FTU2",
             "image": "https://upload.wikimedia.org/wikipedia/vi/9/95/FTU%27s_logo.jpg",
             "fullname": "ĐH Ngoại thương - HCM",
-            "LOCK": "TRUE",
+            "LOCK": "FALSE",
             "MSG": "Hệ thống trường đang bảo trì",
             "SVS": "FALSE",
             "SVURL": "https://qldt.cs2.ftu.edu.vn/api/auth/login",
