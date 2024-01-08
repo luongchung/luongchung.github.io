@@ -1,9 +1,9 @@
 {
     "verj": 1,
     "ADSANDROID": "OK",
-    "ADSANDROIDVER": "1.0.2,1.0.3,1.0.4,1.0.5",
+    "ADSANDROIDVER": "1.0.2,1.0.3,1.0.4,1.0.5,1.0.6",
     "ADSIOS": "OK",
-    "ADSIOSVER": "1.0.2,1.0.3,1.0.4,1.0.5",
+    "ADSIOSVER": "1.0.2,1.0.3,1.0.4,1.0.5,1.0.6",
     "URL_SCHEDULE": "https://sinhvien1.tlu.edu.vn:8098",
     "URL_AUTHEN": "https://sinhvien1.tlu.edu.vn:8098/education/oauth/token",
     "URL_GETSCHEDULE": "https://sinhvien1.tlu.edu.vn:8098/education/api/StudentCourseSubject/studentLoginUser/",
