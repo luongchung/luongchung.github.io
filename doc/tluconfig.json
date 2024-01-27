@@ -11,6 +11,24 @@
     "USER_BLOCK": "",
     "VER_BLOCK": "",
     "ENABLE_CHAT": "OK",
+    "ENABLE_MENU": "1.0.6",
+    "MENU": [
+        {
+            "imagePath": "https: //cdn.iconscout.com/icon/free/png-256/free-chat-2639493-2187526.png?f=webp",
+            "name": "Pizza",
+            "url": "http: //lcsoft.online:9191/"
+        },
+        {
+            "imagePath": "https: //i.pinimg.com/originals/f6/29/53/f6295372a265218b6ecdea9291d3e3f9.png",
+            "name": "Trò chuyện",
+            "url": "http: //lcsoft.online:9191/"
+        },
+        {
+            "imagePath": "https: //i.pinimg.com/originals/f6/29/53/f6295372a265218b6ecdea9291d3e3f9.png",
+            "name": "Trò chuyện",
+            "url": "http: //lcsoft.online:9191/"
+        }
+    ],
     "URL_CHAT": "http://lcsoft.online:9191/",
     "URL_BE": "http://lcsoft.online:9999/student/create",
     "G": {
