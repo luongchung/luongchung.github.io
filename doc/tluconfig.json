@@ -25,7 +25,7 @@
             "url": "https://www.tlu.edu.vn/Tin-tuc-thong-bao/"
         }
     ],
-    "URL_CHAT": "http://lcsoft.online:9191/",
+    "URL_CHAT": "http://lcsoft.online:8080/",
     "URL_BE": "http://lcsoft.online:9999/student/create",
     "G": {
         "0": 0,
