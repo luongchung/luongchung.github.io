@@ -1,7 +1,7 @@
 {
     "verj": 1,
     "ADSANDROID": "OK",
-    "ADSANDROIDVER": "1.0.2,1.0.3,1.0.4,1.0.5,1.0.6,1.0.7",
+    "ADSANDROIDVER": "1.0.2,1.0.3,1.0.4,1.0.5,1.0.6,1.0.7,1.0.8",
     "ADSIOS": "OK",
     "ADSIOSVER": "1.0.2,1.0.3,1.0.4,1.0.5,1.0.6,1.0.7",
     "URL_SCHEDULE": "https://sinhvien1.tlu.edu.vn:8098",
@@ -11,7 +11,7 @@
     "USER_BLOCK": "",
     "VER_BLOCK": "",
     "ENABLE_CHAT": "OK",
-    "ENABLE_MENU": "1.0.7",
+    "ENABLE_MENU": "1.0.7,1.0.8",
     "ENABLE_MENU_IOS": "1.0.7",
     "MENU": [
         {
