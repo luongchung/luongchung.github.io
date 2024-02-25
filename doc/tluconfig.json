@@ -24,6 +24,11 @@
             "name": "Chat GPT",
             "url": "https://chat.openai.com/"
         },
+        {
+            "imagePath": "https://cdn-icons-png.flaticon.com/512/2065/2065157.png",
+            "name": "Post",
+            "url": "https://tlu2019.web.app/"
+        },
          {
             "imagePath": "https://cdn-icons-png.flaticon.com/512/2965/2965879.png",
             "name": "Tin tức",
