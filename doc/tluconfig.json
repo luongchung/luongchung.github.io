@@ -8,7 +8,7 @@
     "URL_AUTHEN": "https://sinhvien1.tlu.edu.vn:8098/education/oauth/token",
     "URL_GETSCHEDULE": "https://sinhvien1.tlu.edu.vn:8098/education/api/StudentCourseSubject/studentLoginUser/",
     "WEB_SUPPORT": "https://m.me/108542957742158",
-    "USER_BLOCK": "",
+    "USER_BLOCK": "2151052483",
     "VER_BLOCK": "",
     "ENABLE_CHAT": "OK",
     "ENABLE_MENU": "1.0.7,1.0.8",
