@@ -14,6 +14,11 @@
     "ENABLE_MENU": "1.0.7,1.0.8",
     "ENABLE_MENU_IOS": "1.0.7",
     "MENU": [
+                {
+            "imagePath": "https://cdn-icons-png.flaticon.com/512/1304/1304038.png",
+            "name": "Lỗi hay gặp",
+            "url": "https://dev.to/luongchung/bat-buoc-doc-khi-dung-app-17d4"
+        },
         {
             "imagePath": "https://i.pinimg.com/originals/f6/29/53/f6295372a265218b6ecdea9291d3e3f9.png",
             "name": "Trò chuyện",
