@@ -41,7 +41,7 @@
         }
     ],
     "URL_CHAT": "http://103.240.6.164:9191/",
-    "URL_BE": "http://103.240.6.164:9999/student/create",
+    "URL_BE": "https://thucdondientu.com/api/student/create",
     "G": {
         "0": 0,
         "1": 7,
