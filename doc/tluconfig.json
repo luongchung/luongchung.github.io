@@ -23,16 +23,6 @@
             "imagePath": "https://i.pinimg.com/originals/f6/29/53/f6295372a265218b6ecdea9291d3e3f9.png",
             "name": "Trò chuyện",
             "url": "http://14.225.253.194:9596/"
-        },
-         {
-            "imagePath": "https://cdn-icons-png.flaticon.com/512/1304/1304038.png",
-            "name": "Lỗi hay gặp",
-            "url": "https://dev.to/luongchung/bat-buoc-doc-khi-dung-app-17d4"
-        },
-         {
-            "imagePath": "https://cdn-icons-png.flaticon.com/512/2965/2965879.png",
-            "name": "Tin tức",
-            "url": "https://www.tlu.edu.vn/Tin-tuc-thong-bao/"
         }
     ],
     "URL_CHAT": "http://103.240.6.164:9191/",
