@@ -14,11 +14,6 @@
     "ENABLE_MENU": "1.0.7,1.0.8,1.0.9",
     "ENABLE_MENU_IOS": "1.0.7,1.0.8,1.0.9,1.1.0",
     "MENU": [
-         {
-            "imagePath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQchawEEte0aW2HsjfD-KHR204eCBK6Vse7NAGJmEsA4ZcFbzkcKi0qAwtHoBBPxW6XSbA&usqp=CAU",
-            "name": "Hóng Drama",
-            "url": "https://web.telegram.org/k/#-4552206645"
-        },
         {
             "imagePath": "https://cdn-icons-png.freepik.com/256/9822/9822467.png",
             "name": "Kênh chat TLU",
