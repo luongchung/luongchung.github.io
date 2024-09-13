@@ -15,7 +15,7 @@
     "ENABLE_MENU_IOS": "1.0.7,1.0.8,1.0.9,1.1.0",
     "MENU": [
         {
-            "imagePath": "https://png.pngtree.com/png-clipart/20230410/original/pngtree-donation-line-icon-png-image_9042492.png",
+            "imagePath": "https://static.vecteezy.com/ti/vecteur-libre/p3/7226419-donation-box-glyph-icon-silhouette-symbol-moneybox-fundraising-donate-money-to-charity-hand-dropping-dollar-coin-into-donation-box-negative-space-vector-isolated-illustration-vectoriel.jpg",
             "name": "Check var quyên góp",
             "url": "https://kodoku-san.github.io/var-charity-donation/"
         },
