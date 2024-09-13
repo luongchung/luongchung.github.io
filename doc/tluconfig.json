@@ -15,6 +15,11 @@
     "ENABLE_MENU_IOS": "1.0.7,1.0.8,1.0.9,1.1.0",
     "MENU": [
         {
+            "imagePath": "https://png.pngtree.com/png-clipart/20230410/original/pngtree-donation-line-icon-png-image_9042492.png",
+            "name": "Check var quyên góp",
+            "url": "https://kodoku-san.github.io/var-charity-donation/"
+        },
+        {
             "imagePath": "https://cdn-icons-png.freepik.com/256/9822/9822467.png",
             "name": "Kênh chat TLU",
             "url": "http://14.225.253.194:8383/"
