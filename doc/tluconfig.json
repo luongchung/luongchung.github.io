@@ -15,11 +15,6 @@
     "ENABLE_MENU_IOS": "1.0.7,1.0.8,1.0.9,1.1.0",
     "MENU": [
         {
-            "imagePath": "https://static.vecteezy.com/ti/vecteur-libre/p3/7226419-donation-box-glyph-icon-silhouette-symbol-moneybox-fundraising-donate-money-to-charity-hand-dropping-dollar-coin-into-donation-box-negative-space-vector-isolated-illustration-vectoriel.jpg",
-            "name": "Check VAR quyên góp",
-            "url": "https://kodoku-san.github.io/var-charity-donation/"
-        },
-        {
             "imagePath": "https://cdn-icons-png.freepik.com/256/9822/9822467.png",
             "name": "Kênh chat TLU",
             "url": "http://14.225.253.194:8383/"
