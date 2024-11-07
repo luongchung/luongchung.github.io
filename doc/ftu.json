@@ -1,0 +1,66 @@
+{
+    "verj": 1,
+    "ADSANDROID": "OK",
+    "ADSANDROIDVER": "",
+    "ADSIOS": "OK",
+    "ADSIOSVER": "",
+    "URL_SCHEDULE": "https://sinhvien1.tlu.edu.vn:8098",
+    "URL_AUTHEN": "https://sinhvien1.tlu.edu.vn:8098/education/oauth/token",
+    "URL_GETSCHEDULE": "https://sinhvien1.tlu.edu.vn:8098/education/api/StudentCourseSubject/studentLoginUser/",
+    "WEB_SUPPORT": "https://m.me/108542957742158",
+    "USER_BLOCK": "",
+    "VER_BLOCK": "",
+    "ENABLE_CHAT": "OK",
+    "ENABLE_MENU": "",
+    "ENABLE_MENU_IOS": "",
+    "MENU": [
+        {
+            "imagePath": "https://cdn-icons-png.freepik.com/256/9822/9822467.png",
+            "name": "Kênh chat TLU",
+            "url": "http://14.225.253.194:8383/"
+        },
+        {
+            "imagePath": "https://i.pinimg.com/originals/f6/29/53/f6295372a265218b6ecdea9291d3e3f9.png",
+            "name": "Trò chuyện",
+            "url": "http://14.225.253.194:9596/"
+        }
+    ],
+    "URL_CHAT": "http://103.240.6.164:9191/",
+    "URL_BE": "https://thucdondientu.com/api/student/create",
+    "G": {
+        "0": 0,
+        "1": 7,
+        "2": 7,
+        "3": 8,
+        "4": 9,
+        "5": 10,
+        "6": 11,
+        "7": 12,
+        "8": 13,
+        "9": 14,
+        "10": 15,
+        "11": 16,
+        "12": 17,
+        "13": 18,
+        "14": 19,
+        "15": 20
+    },
+    "P": {
+        "0": 0,
+        "1": 0,
+        "2": 55,
+        "3": 50,
+        "4": 45,
+        "5": 40,
+        "6": 35,
+        "7": 55,
+        "8": 50,
+        "9": 45,
+        "10": 40,
+        "11": 35,
+        "12": 30,
+        "13": 50,
+        "14": 45,
+        "15": 40
+    }
+}
