@@ -11,14 +11,9 @@
     "USER_BLOCK": "",
     "VER_BLOCK": "",
     "ENABLE_CHAT": "OK",
-    "ENABLE_MENU": "",
-    "ENABLE_MENU_IOS": "",
+    "ENABLE_MENU": "1.0.0",
+    "ENABLE_MENU_IOS": "1.0.0",
     "MENU": [
-        {
-            "imagePath": "https://cdn-icons-png.freepik.com/256/9822/9822467.png",
-            "name": "Kênh chat TLU",
-            "url": "http://14.225.253.194:8383/"
-        },
         {
             "imagePath": "https://i.pinimg.com/originals/f6/29/53/f6295372a265218b6ecdea9291d3e3f9.png",
             "name": "Trò chuyện",
