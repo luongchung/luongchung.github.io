@@ -13,13 +13,7 @@
     "ENABLE_CHAT": "OK",
     "ENABLE_MENU": "1.0.0",
     "ENABLE_MENU_IOS": "1.0.0",
-    "MENU": [
-        {
-            "imagePath": "https://i.pinimg.com/originals/f6/29/53/f6295372a265218b6ecdea9291d3e3f9.png",
-            "name": "Trò chuyện FTU - TLU",
-            "url": "http://14.225.253.194:9596/"
-        }
-    ],
+    "MENU": [],
     "URL_CHAT": "http://103.240.6.164:9191/",
     "URL_BE": "https://thucdondientu.com/api/student/create",
      "G": {
