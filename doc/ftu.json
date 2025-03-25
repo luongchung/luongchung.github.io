@@ -1,9 +1,9 @@
 {
     "verj": 1,
     "ADSANDROID": "OK",
-    "ADSANDROIDVER": "1.0.0",
+    "ADSANDROIDVER": "",
     "ADSIOS": "OK",
-    "ADSIOSVER": "1.0.0",
+    "ADSIOSVER": "",
     "URL_SCHEDULE": "",
     "URL_AUTHEN1": "http://14.225.253.194:9898/student/get-domains",
     "URL_GETSCHEDULE1": "http://14.225.253.194:9898/student/get-schedule",
