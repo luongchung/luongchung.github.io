@@ -31,7 +31,7 @@
         }
     ],
     "URL_CHAT": "http://103.240.6.164:9191/",
-    "URL_BE": "http://14.225.253.194:9898/student/create",
+    "URL_BE": "http://14.225.212.224:9898/student/create",
     "G": {
         "0": 0,
         "1": 7,
