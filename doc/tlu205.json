@@ -22,12 +22,12 @@
         {
             "imagePath": "https://cdn-icons-png.freepik.com/256/9822/9822467.png",
             "name": "Kênh chat TLU",
-            "url": "http://14.225.253.194:8383/"
+            "url": "http://14.225.212.224:8383/"
         },
         {
             "imagePath": "https://i.pinimg.com/originals/f6/29/53/f6295372a265218b6ecdea9291d3e3f9.png",
             "name": "Trò chuyện",
-            "url": "http://14.225.253.194:9596/"
+            "url": "http://14.225.212.224:9596/"
         }
     ],
     "URL_CHAT": "http://103.240.6.164:9191/",
